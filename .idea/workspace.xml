@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Formattering av lenker. Klarifisering av 4b tekst.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
       <workItem from="1662398301104" duration="431000" />
       <workItem from="1662398793397" duration="144000" />
       <workItem from="1662398948088" duration="268000" />
-      <workItem from="1662399796756" duration="323000" />
+      <workItem from="1662399796756" duration="479000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -113,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662399971326</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen.">
+      <created>1662400227744</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662400227744</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +141,7 @@
     <MESSAGE value="Endret størrelse på headers." />
     <MESSAGE value="La til flag kode fra undervisning." />
     <MESSAGE value="Formattering av lenker. Klarifisering av 4b tekst." />
-    <option name="LAST_COMMIT_MESSAGE" value="Formattering av lenker. Klarifisering av 4b tekst." />
+    <MESSAGE value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
+    <option name="LAST_COMMIT_MESSAGE" value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
   </component>
 </project>

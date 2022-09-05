@@ -1,10 +1,10 @@
 # GRUPPE-REPOSITORY
 ## TABELL
-| Navn                   | IND-GITHUB-KONTO                              | Utført "Pull Request" |
-|------------------------|-----------------------------------------------|-----------------------|
-| Ole Aleksander Paulsen | [OlePaulsen](https://github.com/OlePaulsen)   | x |
-| Anita Øygard           | [anitaoygard](https://github.com/anitaoygard) | x |
-| Martine Sinding        | [MartineSinding](https://github.com/MartineSinding) | x |
+| Navn                   | IND-GITHUB-KONTO                              | 
+|------------------------|-----------------------------------------------|
+| Ole Aleksander Paulsen | [OlePaulsen](https://github.com/OlePaulsen)   | 
+| Anita Øygard           | [anitaoygard](https://github.com/anitaoygard) | 
+| Martine Sinding        | [MartineSinding](https://github.com/MartineSinding) | 
 
 ## 4B
 - Sendte ut invitasjon til gruppe repository til alle. Deretter lastet alle ned 
