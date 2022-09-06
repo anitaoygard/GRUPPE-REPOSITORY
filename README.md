@@ -26,10 +26,10 @@ etter tur.
 ## Pull request
 
 | Navn                   | Pull-request utført |
-|------------------------|---------------|
- | Ole Aleksander Paulsen | |
- | Anita Øygard           | |
- | Martine Sinding        | |
- | Ayat Farhat            | |
-| Marius Jansen | |
-| Lamek Tesfazghi | |
+|------------------------|---------------------|
+ | Ole Aleksander Paulsen | **x**               |
+ | Anita Øygard           |                     |
+ | Martine Sinding        |                     |
+ | Ayat Farhat            |                     |
+| Marius Jansen |                     |
+| Lamek Tesfazghi |                     |
