@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="8c49a8e6-c2b3-4018-92c3-c83dfd858c35" name="Changes" comment="" />
-=======
   <component name="ChangeListManager">
     <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="La til navn og lenke til repository" />
->>>>>>> origin/main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +13,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-<<<<<<< HEAD
-  <component name="ProjectId" id="2EM1oONTBUirlQ7FpHIlyWse3Gt" />
-=======
   <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
->>>>>>> origin/main
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,16 +22,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-<<<<<<< HEAD
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
-=======
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
->>>>>>> origin/main
   }
 }</component>
   <component name="RunManager">
@@ -64,23 +43,6 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-<<<<<<< HEAD
-      <changelist id="8c49a8e6-c2b3-4018-92c3-c83dfd858c35" name="Changes" comment="" />
-      <created>1662390813906</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1662390813906</updated>
-      <workItem from="1662390816337" duration="1548000" />
-      <workItem from="1662393179119" duration="402000" />
-      <workItem from="1662393834659" duration="247000" />
-      <workItem from="1662394143236" duration="37000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-=======
       <changelist id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="" />
       <created>1662390844707</created>
       <option name="number" value="Default" />
@@ -102,7 +64,6 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
->>>>>>> origin/main
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -114,11 +75,8 @@
       </map>
     </option>
   </component>
-<<<<<<< HEAD
-=======
   <component name="VcsManagerConfiguration">
     <MESSAGE value="La til navn og lenke til repository" />
     <option name="LAST_COMMIT_MESSAGE" value="La til navn og lenke til repository" />
   </component>
->>>>>>> origin/main
 </project>
