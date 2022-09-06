@@ -1,0 +1,95 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022,_17_23_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022,_17_23_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022,_17_23_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022,_17_23_[Changes]/shelved.patch	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
++++ /dev/null	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
+@@ -1,22 +0,0 @@
+-Index: README.md
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+># GRUPPE-REPOSITORY\n# TABELL\n| Navn | Individuell repository link |\n|------|-----------------------------|\n|Ole Aleksander Paulsen | [Individuell repository](https://github.com/OlePaulsen/IND-REPOSITORY) |
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/README.md b/README.md
+---- a/README.md	(revision ff8ff21b7b665667946e205cc7770c1dcca520be)
+-+++ b/README.md	(date 1662391370613)
+-@@ -2,4 +2,8 @@
+- # TABELL
+- | Navn | Individuell repository link |
+- |------|-----------------------------|
+--|Ole Aleksander Paulsen | [Individuell repository](https://github.com/OlePaulsen/IND-REPOSITORY) |
+-\ No newline at end of file
+-+|Ole Aleksander Paulsen | [Individuell repository](https://github.com/OlePaulsen/IND-REPOSITORY) |
+-+
+-+| Navn  | Individuell repository link                                                  |
+-+|-------|------------------------------------------------------------------------------|
+-+| Anita | [Individuell repository] (https://github.com/anitaoygard/ind-repository.git) |
+-\ No newline at end of file
+Index: .idea/GRUPPE-REPOSITORY.iml
+===================================================================
+diff --git a/.idea/GRUPPE-REPOSITORY.iml b/.idea/GRUPPE-REPOSITORY.iml
+deleted file mode 100644
+--- a/.idea/GRUPPE-REPOSITORY.iml	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
++++ /dev/null	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
+-    <exclude-output />
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: index.html
+===================================================================
+diff --git a/index.html b/index.html
+deleted file mode 100644
+--- a/index.html	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
++++ /dev/null	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
+@@ -1,10 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <title>Title</title>
+-</head>
+-<body>
+-
+-</body>
+-</html>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022__17_23__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022__17_23__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022__17_23__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022__17_23__Changes_.xml	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
++++ /dev/null	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_05_09_2022,_17_23_[Changes]" date="1662391409520" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05_09_2022,_17_23_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 05/09/2022, 17:23 [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"VcsDirectoryMappings\">\n    <mapping directory=\"\" vcs=\"Git\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 1ac96fd41e683c32ff8fbffd1c7f214b289083d4)
++++ b/.idea/vcs.xml	(date 1662453158000)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+-    <mapping directory="" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
