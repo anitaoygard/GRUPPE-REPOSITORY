@@ -22,3 +22,14 @@ etter tur.
 
 - Gruppen har nå  en grunnleggende forståelse av pull-request, commit/push
   og Markdown. **Selvevaluering: 3** 
+
+## Pull request
+
+| Navn                   | Pull-request utført |
+|------------------------|---------------|
+ | Ole Aleksander Paulsen | |
+ | Anita Øygard           | |
+ | Martine Sinding        | |
+ | Ayat Farhat            | |
+| Marius Jansen | |
+| Lamek Tesfazghi | |
