@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen.">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2022_10_50__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2022_10_50__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2022__10_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2022__10_37__Changes_.xml" afterDir="false" />
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -13,6 +11,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/OlePaulsen" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -61,6 +77,7 @@
       <workItem from="1662398793397" duration="144000" />
       <workItem from="1662398948088" duration="268000" />
       <workItem from="1662399796756" duration="479000" />
+      <workItem from="1662481213588" duration="549000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -123,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662400227744</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.">
+      <created>1662463999906</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662463999906</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +171,7 @@
     <MESSAGE value="La til flag kode fra undervisning." />
     <MESSAGE value="Formattering av lenker. Klarifisering av 4b tekst." />
     <MESSAGE value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
-    <option name="LAST_COMMIT_MESSAGE" value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
+    <MESSAGE value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
   </component>
 </project>
