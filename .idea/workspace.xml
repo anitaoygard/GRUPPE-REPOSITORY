@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
-  <component name="ChangeListManager">
-    <list default="true" id="62f2b86a-ba1b-48b3-b675-5b3b53df20f5" name="Changes" comment="commit" />
-=======
   <component name="ChangeListManager">
     <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="La til navn og lenke til repository" />
->>>>>>> origin/main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,44 +13,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-<<<<<<< HEAD
-  <component name="ProjectId" id="2EM1vpHPap2OFXRiMXHzQKbUZNp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
-  </component>
-=======
   <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
->>>>>>> origin/main
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
-  }
-}]]></component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="62f2b86a-ba1b-48b3-b675-5b3b53df20f5" name="Changes" comment="" />
-      <created>1662390872942</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1662390872942</updated>
-    </task>
-    <task id="LOCAL−00001" summary="commit">
-      <created>1662392741260</created>
-      <option name="number" value="LOCAL−00001" />
-      <option name="presentableId" value="LOCAL−00001" />
-      <updated>1662392741260</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-=======
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -102,7 +62,6 @@
       <updated>1662391976223</updated>
     </task>
     <option name="localTasksCounter" value="3" />
->>>>>>> origin/main
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,12 +76,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-<<<<<<< HEAD
-    <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
-=======
     <MESSAGE value="La til navn og lenke til repository" />
     <option name="LAST_COMMIT_MESSAGE" value="La til navn og lenke til repository" />
->>>>>>> origin/main
   </component>
 </project>
