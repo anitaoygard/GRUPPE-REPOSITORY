@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="la til navn og lenke">
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2022_10_50__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2022_10_50__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2022__10_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_09_2022__10_37__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +19,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,7 +27,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/olepa/IdeaProjects/GRUPPE-REPOSITORY&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
   <component name="RunManager">
@@ -50,11 +51,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="" />
+      <changelist id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Endret størrelse på headers." />
       <created>1662390844707</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662390844707</updated>
+      <workItem from="1662398218833" duration="70000" />
+      <workItem from="1662398301104" duration="431000" />
+      <workItem from="1662398793397" duration="144000" />
+      <workItem from="1662398948088" duration="268000" />
+      <workItem from="1662399796756" duration="479000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -68,8 +74,60 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1662391976223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Skrevet og formattert tekst til oppgave 4B">
+      <created>1662397619901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662397619902</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Endret størrelse på headers.">
+      <created>1662397939599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662397939599</updated>
+    </task>
+    <task id="LOCAL-00005" summary="La til flag kode fra undervisning.">
+      <created>1662398574142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662398574142</updated>
+    </task>
+    <task id="LOCAL-00006" summary="La til flag kode fra undervisning.">
+      <created>1662398621610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662398621610</updated>
+    </task>
+    <task id="LOCAL-00007" summary="La til flag kode fra undervisning.">
+      <created>1662398683603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662398683603</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Formattering av lenker. Klarifisering av 4b tekst.">
+      <created>1662399971326</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662399971326</updated>
+    </task>
+    <task id="LOCAL-00009" summary="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen.">
+      <created>1662400227744</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662400227744</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -84,6 +142,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="La til navn og lenke til repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="La til navn og lenke til repository" />
+    <MESSAGE value="Skrevet og formattert tekst til oppgave 4B" />
+    <MESSAGE value="Endret størrelse på headers." />
+    <MESSAGE value="La til flag kode fra undervisning." />
+    <MESSAGE value="Formattering av lenker. Klarifisering av 4b tekst." />
+    <MESSAGE value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
+    <option name="LAST_COMMIT_MESSAGE" value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
   </component>
 </project>
