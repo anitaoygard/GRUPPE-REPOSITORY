@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="la til x i pull request tabell" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +144,19 @@
       <option name="project" value="LOCAL" />
       <updated>1662463999906</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="la til x i pull request tabell">
+      <created>1662552807063</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1662552807063</updated>
+    </task>
+    <task id="LOCAL−00012" summary="la til x i pull request tabell">
+      <created>1662552893528</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1662552893528</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +181,7 @@
     <MESSAGE value="Formattering av lenker. Klarifisering av 4b tekst." />
     <MESSAGE value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
     <MESSAGE value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
+    <MESSAGE value="la til x i pull request tabell" />
+    <option name="LAST_COMMIT_MESSAGE" value="la til x i pull request tabell" />
   </component>
 </project>
