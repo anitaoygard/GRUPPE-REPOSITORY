@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4aa06852-95e8-4ffb-8615-4b237c92406c" name="Changes" comment="">
+=======
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> origin/main
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +15,37 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
+=======
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/OlePaulsen" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+>>>>>>> origin/main
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="2EM1v8WEkwHAo4P7JOBiIT95Xqg" />
+=======
+  <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
+>>>>>>> origin/main
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +54,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+=======
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/olepa/IdeaProjects/GRUPPE-REPOSITORY&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+>>>>>>> origin/main
   }
 }</component>
   <component name="RunManager">
@@ -45,6 +82,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="4aa06852-95e8-4ffb-8615-4b237c92406c" name="Changes" comment="" />
       <created>1662390867057</created>
       <option name="number" value="Default" />
@@ -60,6 +98,94 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+=======
+      <changelist id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Endret størrelse på headers." />
+      <created>1662390844707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662390844707</updated>
+      <workItem from="1662398218833" duration="70000" />
+      <workItem from="1662398301104" duration="431000" />
+      <workItem from="1662398793397" duration="144000" />
+      <workItem from="1662398948088" duration="268000" />
+      <workItem from="1662399796756" duration="479000" />
+      <workItem from="1662481213588" duration="549000" />
+    </task>
+    <task id="LOCAL−00001" summary="La til navn og lenke til repository">
+      <created>1662391721471</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1662391721471</updated>
+    </task>
+    <task id="LOCAL−00002" summary="La til navn og lenke til repository">
+      <created>1662391976223</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1662391976223</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Skrevet og formattert tekst til oppgave 4B">
+      <created>1662397619901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662397619902</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Endret størrelse på headers.">
+      <created>1662397939599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662397939599</updated>
+    </task>
+    <task id="LOCAL-00005" summary="La til flag kode fra undervisning.">
+      <created>1662398574142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662398574142</updated>
+    </task>
+    <task id="LOCAL-00006" summary="La til flag kode fra undervisning.">
+      <created>1662398621610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662398621610</updated>
+    </task>
+    <task id="LOCAL-00007" summary="La til flag kode fra undervisning.">
+      <created>1662398683603</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662398683603</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Formattering av lenker. Klarifisering av 4b tekst.">
+      <created>1662399971326</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662399971326</updated>
+    </task>
+    <task id="LOCAL-00009" summary="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen.">
+      <created>1662400227744</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662400227744</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.">
+      <created>1662463999906</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662463999906</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+>>>>>>> origin/main
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -72,7 +198,18 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="La til navn og individuell repository" />
     <option name="LAST_COMMIT_MESSAGE" value="La til navn og individuell repository" />
+=======
+    <MESSAGE value="La til navn og lenke til repository" />
+    <MESSAGE value="Skrevet og formattert tekst til oppgave 4B" />
+    <MESSAGE value="Endret størrelse på headers." />
+    <MESSAGE value="La til flag kode fra undervisning." />
+    <MESSAGE value="Formattering av lenker. Klarifisering av 4b tekst." />
+    <MESSAGE value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
+    <MESSAGE value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
+>>>>>>> origin/main
   </component>
 </project>
