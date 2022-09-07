@@ -28,7 +28,7 @@ etter tur.
 | Navn                   | Pull-request utført |
 |------------------------|---------------------|
  | Ole Aleksander Paulsen | **x**               |
- | Anita Øygard           |                     |
+ | Anita Øygard           | **x**               |
  | Martine Sinding        | **x**               |
  | Ayat Farhat            |                     |
 | Marius Jansen          |                     |
