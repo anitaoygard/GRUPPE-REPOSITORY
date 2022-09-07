@@ -1,13 +1,13 @@
 # GRUPPE-REPOSITORY
 ## TABELL
-| Navn                   | IND-GITHUB-KONTO                                      |
-|------------------------|-------------------------------------------------------|
+| Navn                   | IND-GITHUB-KONTO                                    |
+|------------------------|-----------------------------------------------------|
 | Ole Aleksander Paulsen | [OlePaulsen](https://github.com/OlePaulsen)         |
 | Anita Øygard           | [anitaoygard](https://github.com/anitaoygard)       |
 | Martine Sinding        | [MartineSinding](https://github.com/MartineSinding) |
 | Ayat Farhat            | [ayatfarhat](https://github.com/ayatfarhat)         |
 | Marius Jansen          | [MariusJansen99](https://github.com/MariusJansen99) |
-| Lamek Tesfazghi        | [LamekTesfazghi](https://github.com/LamekTesfazghi)  |
+| Lamek Tesfazghi        | [LamekTesfazghi](https://github.com/LamekTesfazghi) |
 ## 4B
 - Sendte ut invitasjon til gruppe repository til alle. Deretter lastet alle ned
   Intellij og klonet repository. Deretter tok vi tur med å gjøre pull-request
@@ -31,5 +31,5 @@ etter tur.
  | Anita Øygard           |                     |
  | Martine Sinding        | **x**               |
  | Ayat Farhat            |                     |
-| Marius Jansen |                     |
-| Lamek Tesfazghi |                     |
+| Marius Jansen          |                     |
+| Lamek Tesfazghi        |                     |
