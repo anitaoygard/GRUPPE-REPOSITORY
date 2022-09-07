@@ -1,0 +1,227 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># GRUPPE-REPOSITORY\n## TABELL\n| Navn                   | IND-GITHUB-KONTO                                      |\n|------------------------|-------------------------------------------------------|\n| Ole Aleksander Paulsen | [OlePaulsen](https://github.com/OlePaulsen)         |\n| Anita Øygard           | [anitaoygard](https://github.com/anitaoygard)       |\n| Martine Sinding        | [MartineSinding](https://github.com/MartineSinding) |\n| Ayat Farhat            | [ayatfarhat](https://github.com/ayatfarhat)         |\n| Marius Jansen          | [MariusJansen99](https://github.com/MariusJansen99) |\n| Lamek Tesfazghi        | [LamekTesfazghi](https://github.com/LamekTesfazghi)  |\n## 4B\n- Sendte ut invitasjon til gruppe repository til alle. Deretter lastet alle ned\n  Intellij og klonet repository. Deretter tok vi tur med å gjøre pull-request\n  og committe/pushe navn og lenke. Googlet for å finne ut hvordan vi skulle bruke Markdown til\n  tabell. Deretter diskuterte vi tekst til 4B, for så å skrive den. \n\n- Fikk endel problemer ved oppdatering av klone. Måtte commite/pushe noen filer\n  for å oppdatere. Hadde også noen problemer med github-login gjennom\n  Intellij. Dette fikset vi ved å bruke innlogging med token. Vi oppdaterte\nogså over hverandre i enkelte tilfeller, dette ordnet seg ved at oppdaterte\netter tur. \n\n- Gruppen har nå  en grunnleggende forståelse av pull-request, commit/push\n  og Markdown. **Selvevaluering: 3** \n\n## Pull request\n\n| Navn                   | Pull-request utført |\n|------------------------|---------------------|\n | Ole Aleksander Paulsen | **x**               |\n | Anita Øygard           |                     |\n | Martine Sinding        |                     |\n | Ayat Farhat            |                     |\n| Marius Jansen |                     |\n| Lamek Tesfazghi |                     |
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 2aa38fbdc69b04a3a2c9409bff5a913a175fef49)
++++ b/README.md	(date 1662555065007)
+@@ -1,35 +1,0 @@
+-# GRUPPE-REPOSITORY
+-## TABELL
+-| Navn                   | IND-GITHUB-KONTO                                      |
+-|------------------------|-------------------------------------------------------|
+-| Ole Aleksander Paulsen | [OlePaulsen](https://github.com/OlePaulsen)         |
+-| Anita Øygard           | [anitaoygard](https://github.com/anitaoygard)       |
+-| Martine Sinding        | [MartineSinding](https://github.com/MartineSinding) |
+-| Ayat Farhat            | [ayatfarhat](https://github.com/ayatfarhat)         |
+-| Marius Jansen          | [MariusJansen99](https://github.com/MariusJansen99) |
+-| Lamek Tesfazghi        | [LamekTesfazghi](https://github.com/LamekTesfazghi)  |
+-## 4B
+-- Sendte ut invitasjon til gruppe repository til alle. Deretter lastet alle ned
+-  Intellij og klonet repository. Deretter tok vi tur med å gjøre pull-request
+-  og committe/pushe navn og lenke. Googlet for å finne ut hvordan vi skulle bruke Markdown til
+-  tabell. Deretter diskuterte vi tekst til 4B, for så å skrive den. 
+-
+-- Fikk endel problemer ved oppdatering av klone. Måtte commite/pushe noen filer
+-  for å oppdatere. Hadde også noen problemer med github-login gjennom
+-  Intellij. Dette fikset vi ved å bruke innlogging med token. Vi oppdaterte
+-også over hverandre i enkelte tilfeller, dette ordnet seg ved at oppdaterte
+-etter tur. 
+-
+-- Gruppen har nå  en grunnleggende forståelse av pull-request, commit/push
+-  og Markdown. **Selvevaluering: 3** 
+-
+-## Pull request
+-
+-| Navn                   | Pull-request utført |
+-|------------------------|---------------------|
+- | Ole Aleksander Paulsen | **x**               |
+- | Anita Øygard           |                     |
+- | Martine Sinding        |                     |
+- | Ayat Farhat            |                     |
+-| Marius Jansen |                     |
+-| Lamek Tesfazghi |                     |
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"04fbbe4e-cf2b-43ec-b48a-31c47f1add88\" name=\"Changes\" comment=\"Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <favorite-branches>\n      <branch-storage>\n        <map>\n          <entry type=\"REMOTE\">\n            <value>\n              <list>\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"origin/OlePaulsen\" />\n              </list>\n            </value>\n          </entry>\n        </map>\n      </branch-storage>\n    </favorite-branches>\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2EM1sOSRahhNbrIMukx65UcZCKc\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/olepa/IdeaProjects/GRUPPE-REPOSITORY&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <module name=\"GRUPPE-REPOSITORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <module name=\"GRUPPE-REPOSITORY\" />\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"04fbbe4e-cf2b-43ec-b48a-31c47f1add88\" name=\"Changes\" comment=\"Endret størrelse på headers.\" />\n      <created>1662390844707</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1662390844707</updated>\n      <workItem from=\"1662398218833\" duration=\"70000\" />\n      <workItem from=\"1662398301104\" duration=\"431000\" />\n      <workItem from=\"1662398793397\" duration=\"144000\" />\n      <workItem from=\"1662398948088\" duration=\"268000\" />\n      <workItem from=\"1662399796756\" duration=\"479000\" />\n      <workItem from=\"1662481213588\" duration=\"549000\" />\n    </task>\n    <task id=\"LOCAL−00001\" summary=\"La til navn og lenke til repository\">\n      <created>1662391721471</created>\n      <option name=\"number\" value=\"LOCAL−00001\" />\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\n      <updated>1662391721471</updated>\n    </task>\n    <task id=\"LOCAL−00002\" summary=\"La til navn og lenke til repository\">\n      <created>1662391976223</created>\n      <option name=\"number\" value=\"LOCAL−00002\" />\n      <option name=\"presentableId\" value=\"LOCAL−00002\" />\n      <updated>1662391976223</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"Skrevet og formattert tekst til oppgave 4B\">\n      <created>1662397619901</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1662397619902</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"Endret størrelse på headers.\">\n      <created>1662397939599</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1662397939599</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"La til flag kode fra undervisning.\">\n      <created>1662398574142</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1662398574142</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"La til flag kode fra undervisning.\">\n      <created>1662398621610</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1662398621610</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"La til flag kode fra undervisning.\">\n      <created>1662398683603</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1662398683603</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"Formattering av lenker. Klarifisering av 4b tekst.\">\n      <created>1662399971326</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1662399971326</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen.\">\n      <created>1662400227744</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1662400227744</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.\">\n      <created>1662463999906</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1662463999906</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"11\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"La til navn og lenke til repository\" />\n    <MESSAGE value=\"Skrevet og formattert tekst til oppgave 4B\" />\n    <MESSAGE value=\"Endret størrelse på headers.\" />\n    <MESSAGE value=\"La til flag kode fra undervisning.\" />\n    <MESSAGE value=\"Formattering av lenker. Klarifisering av 4b tekst.\" />\n    <MESSAGE value=\"La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen.\" />\n    <MESSAGE value=\"Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2aa38fbdc69b04a3a2c9409bff5a913a175fef49)
++++ b/.idea/workspace.xml	(date 1662555894694)
+@@ -1,7 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.">
++    <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="la til navn og lenke">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+     </list>
+@@ -11,22 +14,9 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
+-    <favorite-branches>
+-      <branch-storage>
+-        <map>
+-          <entry type="REMOTE">
+-            <value>
+-              <list>
+-                <branch-info repo="$PROJECT_DIR$" source="origin/OlePaulsen" />
+-              </list>
+-            </value>
+-          </entry>
+-        </map>
+-      </branch-storage>
+-    </favorite-branches>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="main" />
++        <entry key="$PROJECT_DIR$" value="Anitaoygard" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -35,20 +25,20 @@
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <OptionsSetting value="false" id="Update" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/olepa/IdeaProjects/GRUPPE-REPOSITORY&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "settings.editor.selected.configurable": "preferences.pluginManager"
+   }
+-}</component>
++}]]></component>
+   <component name="RunManager">
+     <configuration default="true" type="JetRunConfigurationType">
+       <module name="GRUPPE-REPOSITORY" />
+@@ -67,17 +57,11 @@
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+-      <changelist id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Endret størrelse på headers." />
++      <changelist id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="" />
+       <created>1662390844707</created>
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1662390844707</updated>
+-      <workItem from="1662398218833" duration="70000" />
+-      <workItem from="1662398301104" duration="431000" />
+-      <workItem from="1662398793397" duration="144000" />
+-      <workItem from="1662398948088" duration="268000" />
+-      <workItem from="1662399796756" duration="479000" />
+-      <workItem from="1662481213588" duration="549000" />
+     </task>
+     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
+       <created>1662391721471</created>
+@@ -91,68 +75,9 @@
+       <option name="presentableId" value="LOCAL−00002" />
+       <updated>1662391976223</updated>
+     </task>
+-    <task id="LOCAL-00003" summary="Skrevet og formattert tekst til oppgave 4B">
+-      <created>1662397619901</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1662397619902</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="Endret størrelse på headers.">
+-      <created>1662397939599</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1662397939599</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="La til flag kode fra undervisning.">
+-      <created>1662398574142</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1662398574142</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="La til flag kode fra undervisning.">
+-      <created>1662398621610</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1662398621610</updated>
+-    </task>
+-    <task id="LOCAL-00007" summary="La til flag kode fra undervisning.">
+-      <created>1662398683603</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1662398683603</updated>
+-    </task>
+-    <task id="LOCAL-00008" summary="Formattering av lenker. Klarifisering av 4b tekst.">
+-      <created>1662399971326</created>
+-      <option name="number" value="00008" />
+-      <option name="presentableId" value="LOCAL-00008" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1662399971326</updated>
+-    </task>
+-    <task id="LOCAL-00009" summary="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen.">
+-      <created>1662400227744</created>
+-      <option name="number" value="00009" />
+-      <option name="presentableId" value="LOCAL-00009" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1662400227744</updated>
+-    </task>
+-    <task id="LOCAL-00010" summary="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.">
+-      <created>1662463999906</created>
+-      <option name="number" value="00010" />
+-      <option name="presentableId" value="LOCAL-00010" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1662463999906</updated>
+-    </task>
+-    <option name="localTasksCounter" value="11" />
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+   <component name="Vcs.Log.Tabs.Properties">
+     <option name="TAB_STATES">
+       <map>
+@@ -166,12 +91,6 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="La til navn og lenke til repository" />
+-    <MESSAGE value="Skrevet og formattert tekst til oppgave 4B" />
+-    <MESSAGE value="Endret størrelse på headers." />
+-    <MESSAGE value="La til flag kode fra undervisning." />
+-    <MESSAGE value="Formattering av lenker. Klarifisering av 4b tekst." />
+-    <MESSAGE value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
+-    <MESSAGE value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
++    <option name="LAST_COMMIT_MESSAGE" value="La til navn og lenke til repository" />
+   </component>
+ </project>
+\ No newline at end of file

@@ -1,0 +1,77 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># GRUPPE-REPOSITORY\n# TABELL\n| Navn                   | Individuell repository link                                                |\n|------------------------|----------------------------------------------------------------------------|\n| Ole Aleksander Paulsen | [Individuell repository](https://github.com/OlePaulsen/IND-REPOSITORY)     |\n| Anita Øygard           | [Individuell repository](https://github.com/anitaoygard/ind-repository)    |\n| Martine Sinding        | [Individuell repository](https://github.com/MartineSinding/IND-REPOSITORY) |\n| Ayat Farhat            | [Individuell repository](https://github.com/ayatfarhat/IND-REPOSITORY)     |\n| Marius Jansen          | [Individuell repository](https://github.com/MariusJansen99/IND-REPOSITORY) |\n\nJeg finner ikke tabellen hvor vi skal sette kryss - Anita
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 00e903b1a7bce50a2c7ce88c5180eb7ab6232eab)
++++ b/README.md	(date 1662554311587)
+@@ -8,4 +8,4 @@
+ | Ayat Farhat            | [Individuell repository](https://github.com/ayatfarhat/IND-REPOSITORY)     |
+ | Marius Jansen          | [Individuell repository](https://github.com/MariusJansen99/IND-REPOSITORY) |
+ 
+-Jeg finner ikke tabellen hvor vi skal sette kryss - Anita
+\ No newline at end of file
++x
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4a101b31-7e13-4b32-9329-599e214af600\" name=\"Changes\" comment=\"la til navn og lenke\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"Anitaoygard\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2EM1sOSRahhNbrIMukx65UcZCKc\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <OptionsSetting value=\"false\" id=\"Update\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <module name=\"GRUPPE-REPOSITORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <module name=\"GRUPPE-REPOSITORY\" />\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4a101b31-7e13-4b32-9329-599e214af600\" name=\"Changes\" comment=\"\" />\n      <created>1662390844707</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1662390844707</updated>\n    </task>\n    <task id=\"LOCAL−00001\" summary=\"La til navn og lenke til repository\">\n      <created>1662391721471</created>\n      <option name=\"number\" value=\"LOCAL−00001\" />\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\n      <updated>1662391721471</updated>\n    </task>\n    <task id=\"LOCAL−00002\" summary=\"La til navn og lenke til repository\">\n      <created>1662391976223</created>\n      <option name=\"number\" value=\"LOCAL−00002\" />\n      <option name=\"presentableId\" value=\"LOCAL−00002\" />\n      <updated>1662391976223</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"La til navn og lenke til repository\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"La til navn og lenke til repository\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 00e903b1a7bce50a2c7ce88c5180eb7ab6232eab)
++++ b/.idea/workspace.xml	(date 1662553639910)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="la til navn og lenke">
++    <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="Finner ikke tabellen med kryss">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+     </list>
+@@ -20,6 +20,14 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="recentNewPullRequestHead">
++      <RepoCoordinatesHolder>
++        <option name="owner" value="anitaoygard" />
++        <option name="repository" value="GRUPPE-REPOSITORY" />
++      </RepoCoordinatesHolder>
++    </option>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -74,7 +82,13 @@
+       <option name="presentableId" value="LOCAL−00002" />
+       <updated>1662391976223</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL−00003" summary="Finner ikke tabellen med kryss">
++      <created>1662553174733</created>
++      <option name="number" value="LOCAL−00003" />
++      <option name="presentableId" value="LOCAL−00003" />
++      <updated>1662553174733</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -90,6 +104,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="La til navn og lenke til repository" />
+-    <option name="LAST_COMMIT_MESSAGE" value="La til navn og lenke til repository" />
++    <MESSAGE value="Finner ikke tabellen med kryss" />
++    <option name="LAST_COMMIT_MESSAGE" value="Finner ikke tabellen med kryss" />
+   </component>
+ </project>
+\ No newline at end of file

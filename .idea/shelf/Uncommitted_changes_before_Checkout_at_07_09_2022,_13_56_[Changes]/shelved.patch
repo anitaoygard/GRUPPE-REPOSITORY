@@ -1,0 +1,58 @@
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># GRUPPE-REPOSITORY\n# TABELL\n| Navn                   | Individuell repository link                                                |\n|------------------------|----------------------------------------------------------------------------|\n| Ole Aleksander Paulsen | [Individuell repository](https://github.com/OlePaulsen/IND-REPOSITORY)     |\n| Anita Øygard           | [Individuell repository](https://github.com/anitaoygard/ind-repository)    |\n| Martine Sinding        | [Individuell repository](https://github.com/MartineSinding/IND-REPOSITORY) |\n| Ayat Farhat            | [Individuell repository](https://github.com/ayatfarhat/IND-REPOSITORY)     |\n| Marius Jansen          | [Individuell repository](https://github.com/MariusJansen99/IND-REPOSITORY) |\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision bf865d6f07df491d08950a4ba1108f03291edbfa)
++++ b/README.md	(date 1662454099098)
+@@ -1,9 +1,7 @@
+ # GRUPPE-REPOSITORY
+ # TABELL
+-| Navn                   | Individuell repository link                                                |
+-|------------------------|----------------------------------------------------------------------------|
+-| Ole Aleksander Paulsen | [Individuell repository](https://github.com/OlePaulsen/IND-REPOSITORY)     |
+-| Anita Øygard           | [Individuell repository](https://github.com/anitaoygard/ind-repository)    |
++| Navn                   | Individuell repository link |
++|------------------------|-----------------------------|
++| Ole Aleksander Paulsen | [Individuell repository](https://github.com/OlePaulsen/IND-REPOSITORY) |
++| Anita Øygard           | [Individuell repository](https://github.com/anitaoygard/ind-repository) |
+ | Martine Sinding        | [Individuell repository](https://github.com/MartineSinding/IND-REPOSITORY) |
+-| Ayat Farhat            | [Individuell repository](https://github.com/ayatfarhat/IND-REPOSITORY)     |
+-| Marius Jansen          | [Individuell repository](https://github.com/MariusJansen99/IND-REPOSITORY) |
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4a101b31-7e13-4b32-9329-599e214af600\" name=\"Changes\" comment=\"la til navn og lenke\">\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2EM1sOSRahhNbrIMukx65UcZCKc\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\n    <OptionsSetting value=\"false\" id=\"Update\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <module name=\"GRUPPE-REPOSITORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <module name=\"GRUPPE-REPOSITORY\" />\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4a101b31-7e13-4b32-9329-599e214af600\" name=\"Changes\" comment=\"\" />\n      <created>1662390844707</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1662390844707</updated>\n    </task>\n    <task id=\"LOCAL−00001\" summary=\"La til navn og lenke til repository\">\n      <created>1662391721471</created>\n      <option name=\"number\" value=\"LOCAL−00001\" />\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\n      <updated>1662391721471</updated>\n    </task>\n    <task id=\"LOCAL−00002\" summary=\"La til navn og lenke til repository\">\n      <created>1662391976223</created>\n      <option name=\"number\" value=\"LOCAL−00002\" />\n      <option name=\"presentableId\" value=\"LOCAL−00002\" />\n      <updated>1662391976223</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"La til navn og lenke til repository\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"La til navn og lenke til repository\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision bf865d6f07df491d08950a4ba1108f03291edbfa)
++++ b/.idea/workspace.xml	(date 1662462191450)
+@@ -1,10 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="la til navn og lenke">
++    <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="La til navn og lenke til repository">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -19,9 +17,7 @@
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+-    <OptionsSetting value="false" id="Update" />
+-  </component>
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
