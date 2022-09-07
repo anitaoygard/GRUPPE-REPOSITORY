@@ -4,7 +4,7 @@
 <<<<<<< HEAD
     <list default="true" id="4aa06852-95e8-4ffb-8615-4b237c92406c" name="Changes" comment="">
 =======
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon.">
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> origin/main
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -37,6 +37,14 @@
     </option>
 >>>>>>> origin/main
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="anitaoygard" />
+        <option name="repository" value="GRUPPE-REPOSITORY" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -109,7 +117,7 @@
       <workItem from="1662398793397" duration="144000" />
       <workItem from="1662398948088" duration="268000" />
       <workItem from="1662399796756" duration="479000" />
-      <workItem from="1662481213588" duration="549000" />
+      <workItem from="1662481213588" duration="913000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -179,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662463999906</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="La til pull request tabell">
+      <created>1662481816300</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662481816300</updated>
+    </task>
+    <task id="LOCAL-00012" summary="La til **x** i pull-request tabell">
+      <created>1662482100700</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662482100700</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +231,9 @@
     <MESSAGE value="Formattering av lenker. Klarifisering av 4b tekst." />
     <MESSAGE value="La til &quot;Utførst &quot;Pull request&quot; kolonne&quot; i tabellen." />
     <MESSAGE value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fikset formattering av tabell og la til tekst etter overskrivelse av tidligere versjon." />
+    <MESSAGE value="La til pull request tabell" />
+    <MESSAGE value="La til **x** i pull-request tabell" />
+    <option name="LAST_COMMIT_MESSAGE" value="La til **x** i pull-request tabell" />
 >>>>>>> origin/main
   </component>
 </project>
