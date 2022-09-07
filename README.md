@@ -32,4 +32,4 @@ etter tur.
  | Martine Sinding        | **x**               |
  | Ayat Farhat            |                     |
 | Marius Jansen          |                     |
-| Lamek Tesfazghi        |                     |
+| Lamek Tesfazghi        | **x**               |
