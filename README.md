@@ -31,5 +31,5 @@ etter tur.
  | Anita Øygard           | **x**               |
  | Martine Sinding        | **x**               |
  | Ayat Farhat            |                     |
-| Marius Jansen          |                     |
+| Marius Jansen          |  **x**                 |
 | Lamek Tesfazghi        | **x**               |
