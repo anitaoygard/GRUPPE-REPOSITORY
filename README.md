@@ -30,6 +30,6 @@ etter tur.
  | Ole Aleksander Paulsen | **x**               |
  | Anita Øygard           | **x**               |
  | Martine Sinding        | **x**               |
- | Ayat Farhat            |   **x**       **x** |
-| Marius Jansen          |  **x**                 |
+ | Ayat Farhat            | **x**               |
+| Marius Jansen          | **x** **x**         |
 | Lamek Tesfazghi        | **x**               |
