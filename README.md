@@ -62,10 +62,10 @@ etter tur.
 </head>
 </html>
 
-<html>
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8" />
-    <title>Flagg</title>
+<meta charset="UTF-8" />
+<title>Flagg</title>
 </head>
 <body>
 <canvas id="canvas"></canvas>
