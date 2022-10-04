@@ -33,3 +33,31 @@ etter tur.
  | Ayat Farhat            | **x**         |
 | Marius Jansen          | **x**         |
 | Lamek Tesfazghi        | **x**         |
+
+ <!DOCTYPE>
+<html>
+<head>
+
+<p style="background-color: red;
+    width: 180px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px; 80%;">&nbsp;</p>
+
+<p style="background-color: white;
+    width: 180px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;">&nbsp;</p>
+
+<p style="background-color: blue;
+    width: 180px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;">&nbsp;</p>
+
+</head>
+</html>
