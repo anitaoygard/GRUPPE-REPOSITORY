@@ -34,7 +34,6 @@ etter tur.
 | Marius Jansen          | **x**         |
 | Lamek Tesfazghi        | **x**         |
 
- <!DOCTYPE>
 <html>
 <head>
 
