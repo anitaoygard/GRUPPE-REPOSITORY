@@ -34,7 +34,6 @@ etter tur.
 | Marius Jansen          | **x**         |
 | Lamek Tesfazghi        | **x**         |
 
-
 <html>
 <head>
 
@@ -60,34 +59,5 @@ etter tur.
     margin-bottom: 0px;">&nbsp;</p>
 
 </head>
-</html>
-
-<html lang="en-US">
-<head>
-<meta charset="UTF-8" />
-<title>Flagg</title>
-</head>
-<body>
-<canvas id="canvas"></canvas>
-<script>
-    const canvas = document.getElementById('canvas');
-    const ctx = canvas.getContext('2d');
-    canvas.height = 1000;
-    canvas.width = 1000;
-
-    ctx.fillStyle = 'rgb(0, 0, 0)';
-    ctx.fillRect(45, 45, 310, 210);
-
-    ctx.fillStyle = 'rgb(255, 255, 255)';
-    ctx.fillRect(50, 50, 300, 200);
-
-    ctx.fillStyle = 'rgb(188, 0, 45)';
-    ctx.strokeStyle = 'rgb(255, 255, 255';
-    ctx.beginPath();
-    ctx.arc(200, 150, 60, 0, 2 * Math.PI);
-    ctx.stroke();
-    ctx.fill();
-</script>
-</body>
 </html>
 
