@@ -26,10 +26,21 @@ etter tur.
 ## Pull request
 
 | Navn                   | Pull-request utført |
-|------------------------|---------------------|
- | Ole Aleksander Paulsen | **x**               |
- | Anita Øygard           | **x**               |
- | Martine Sinding        | **x**               |
- | Ayat Farhat            |                     |
-| Marius Jansen          |                     |
-| Lamek Tesfazghi        |                     |
+|------------------------|---------------|
+ | Ole Aleksander Paulsen | **x**         |
+ | Anita Øygard           | **x**         |
+ | Martine Sinding        | **x**         |
+ | Ayat Farhat            | **x**         |
+| Marius Jansen          | **x**         |
+| Lamek Tesfazghi        | **x**         |
+
+
+
+Flaggoppgave uke 40
+
+Oppgave 1 <!--<p>-elementet og “style” attributt-->
+    Å programmere med p element og style attributt har sine fordeler.
+    Er man ny i koding er denne metoden enkel å forstå på grunn av 
+    at den er satt opp på en logisk måte.
+
+    Det som er negativt med denne metoden er den 
