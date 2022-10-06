@@ -34,9 +34,9 @@ etter tur.
 | Marius Jansen          | **x**         |
 | Lamek Tesfazghi        | **x**         |
 
-## Flaggoppgaven
+# Flaggoppgaven
 
-# 5A
+## 5A
 - Vi anvendte Github projects for å jobbe med denne oppgaven. Vi mente det var enklest å bruke et "bord", ettersom
   vi hadde mest erfaring med det fra før. Kanban bord er oversiktelig å forståelig, så vi gikk inn for noe lignende.
   Det ble en forenklet versjon med kun fire kolonner. Disse var "To do", "In Progress", "Under review" og
@@ -49,7 +49,7 @@ etter tur.
   Et element tilegnet 5A)+5B), tre elementer tilegnet 5C) og tre elementer tilegnet 4). Pull requestene ble lagt
   rett inn i "Finished" kolonnen etter de var utført for oversiktens skyld.
 
-# 5B) / 3)
+## 5B) / 3)
 - Vi fordelte oppgaven ved å sette et par gruppemedlemmer til å jobbe med hver metode.
 
 - Anita og Martine jobbet med metode 1.
@@ -67,8 +67,8 @@ Hver person laget forslag til løsning av oppgaven, og lastet dette opp i sin eg
 Deretter utførte én person på hver metode en pull request, for å få pflagg.html, cssflagg.html og canvasflagg.html
 samlet i main branch. Alle utførte ikke pull request til main, ettersom dette kunne blitt rotete.
 
-# 5C)
-# Metode 1
+## 5C)
+### Metode 1
 Å programmere med p element og style attributt har sine fordeler.
 Er man ny i koding er denne metoden enkel å forstå på grunn av
 at den er satt opp på en logisk måte.
@@ -83,7 +83,7 @@ flagget. Her satt vi inn p style og begynte å utforme hvordan flagget skulle se
 hvilken bakgrunnsfarge vi skulle ha og deretter hvordan form flagget skulle ha, hvor vidt og høyt det skulle være.
 Videre kopierte vi denne koden, men byttet farge på resten av boksene. Avsluttningsvis ble dette til et prideflagg.
 
-# Metode 2
+### Metode 2
 Kunne velge mellom å bruk id eller Class.
 Begge to er et slags navn eller merke som du gir til et bestemt HTML-element men forskjellen på de er at samme
 Class kan brukes flere ganger i samme dokument, mens samme ID kan bare være en gang per dokument.
@@ -91,7 +91,7 @@ Brukte diverse nettsider og youtube som forklarte Class for eksempel w3school, f
 Slet litt med å finne de riktige dimensjonene i starten, men klarte det til slutt ved prøve og feile.
 Prøvde å lage det Tanzaniske flagg først, men ble litt vanskelig så lagde det tyske flagget.
 
-# Metode 3
+### Metode 3
 Hovedutfordringen med metode 3 er å sette seg inn i de ulike funksjonene som kan anvendes, og hvordan de brukes.
 Etter å ha satt opp canvas ID, og konstantene canvas(for å definere størrelse på canvas) og ctx(for å beskrive
 hva som skal forekomme på canvas), er metoden enkel å bruke. På grunn av funksjonene du har tilgjengelig
@@ -106,5 +106,5 @@ flagget. Du kan heller ikke lage "borders" til objekter. Jeg måtte derfor impro
 rektangel under det hvite, for at man skulle se flagget mot den hvite bakgrunnen. Dette er mer tungvindt enn
 nødvendig.
 
-# All tekst til flaggoppgaven ligger også i github-pages / index.html
+### All tekst til flaggoppgaven ligger også i github-pages / index.html
 
