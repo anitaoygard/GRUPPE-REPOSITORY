@@ -1,0 +1,55 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,8 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="bd043d4c-4463-4b9f-a4f3-3879db7f2dc2" name="Changes" comment="Lagt til navn og repository">
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++    <list default="true" id="bd043d4c-4463-4b9f-a4f3-3879db7f2dc2" name="Changes" comment="Jeg har utført pull request">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -19,6 +19,14 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="recentNewPullRequestHead">
++      <RepoCoordinatesHolder>
++        <option name="owner" value="anitaoygard" />
++        <option name="repository" value="GRUPPE-REPOSITORY" />
++      </RepoCoordinatesHolder>
++    </option>
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <OptionsSetting value="false" id="Update" />
+@@ -29,6 +37,13 @@
+   }
+ }]]></component>
+   <component name="TaskManager">
++    <task id="LOCAL−00001" summary="Jeg har utført pull request">
++      <created>1662579047508</created>
++      <option name="number" value="LOCAL−00001" />
++      <option name="presentableId" value="LOCAL−00001" />
++      <updated>1662579047509</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -42,4 +57,8 @@
+       </map>
+     </option>
+   </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Jeg har utført pull request" />
++    <option name="LAST_COMMIT_MESSAGE" value="Jeg har utført pull request" />
++  </component>
+ </project>
+\ No newline at end of file
