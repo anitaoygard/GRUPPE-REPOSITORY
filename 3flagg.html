@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .tittel1 {
+            text-align: center;
+        }
+
+        .tittel2 {
+            text-align: center;
+        }
+
+        .germanyBlack {
+            background-color: black;
+            width: 300px;
+            height: 50px;
+            margin-top: 50px;
+            margin-bottom: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .germanyRed {
+            background-color: red;
+            width: 300px;
+            height: 50px;
+            margin: auto;
+        }
+
+        .germanyYellow {
+            background-color: yellow;
+            width: 300px;
+            height: 50px;
+            margin-top: 0;
+            margin-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        canvas {
+            border: 1px solid black;
+            background-color: white;
+            
+        }
+    
+
+    </style>
+
+</head>
+<body>   
+
+<h1 class="tittel1">Tyske flagg</h1>
+<p style=" background-color: black; width: 300px; height: 50px; margin: auto;">&nbsp;</p>
+<p style=" background-color: red; width: 300px; height: 50px; margin: auto;">&nbsp;</p>
+<p style="background-color: yellow; width: 300px; height: 50px; margin: auto;">&nbsp;</p>
+
+<h1 class="tittel2">Germany</h1>
+<p class="germanyBlack"></p>
+<p class="germanyRed"></p>
+<p class="germanyYellow"></p>
+
+<canvas id="c1"></canvas>
+<script>
+
+let canvas = document.getElementById("c1");
+let ctx = canvas.getContext("2d");
+canvas.width = 500; //px
+canvas.height = 700; //px
+
+//tyskaland overskrift
+ctx.font = "30px Arial";
+let txt = "tyske";
+ctx.fillText(txt, 225, 50);
+
+
+//tyske flagget
+ctx.fillStyle = "black";
+ctx.fillRect(100, 200, 300, 50);
+ctx.fillStyle = "red";
+ctx.fillRect(100, 250, 300, 50);
+ctx.fillStyle = "yellow";
+ctx.fillRect(100, 300, 300, 50);
+
+
+</script>
+
+</body>
+</html>
+
+
