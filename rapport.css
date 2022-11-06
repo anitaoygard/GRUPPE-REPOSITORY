@@ -1,0 +1,132 @@
+.slider1 {
+    --sliderSize: 15px;
+    --sliderColor1: #111111;
+    -webkit-appearance: none;
+    width: 60%;
+    height: 15px;
+    border-radius: 5px;
+    background: rgba(240, 240, 240, 1);
+    outline: none;
+
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider2 {
+    --sliderSize: 15px;
+    --sliderColor2: #111111;
+    -webkit-appearance: none;
+    width: 60%;
+    height: 15px;
+    border-radius: 5px;
+    background: rgba(240, 240, 240, 0);
+    outline: none;
+    opacity: 1;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slider3 {
+    --sliderSize: 15px;
+    --sliderColor3: #111111;
+    -webkit-appearance: none;
+    width: 60%;
+    height: 15px;
+    border-radius: 5px;
+    background: rgba(240, 240, 240, 0);
+    outline: none;
+    opacity: 1;
+
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: var(--sliderSize);
+    height: var(--sliderSize);
+    border-radius: 50%;
+    background: var(--sliderColor1);
+
+}
+
+.slider2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: var(--sliderSize);
+    height: var(--sliderSize);
+    border-radius: 50%;
+    background: var(--sliderColor2);
+
+}
+
+.slider3::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: var(--sliderSize);
+    height: var(--sliderSize);
+    border-radius: 50%;
+    background: var(--sliderColor3);
+
+}
+
+.label1 {
+    margin-top: -280px;
+    --labelColor1;
+    float: left;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2rem;
+    background: var(--labelColor1);
+    color: black;
+}
+
+.label2 {
+    margin-top: -260px;
+    --labelColor2;
+    float: left;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2rem;
+    background: var(--labelColor2);
+    color: black;
+}
+
+.label3 {
+    margin-top: -240px;
+    --labelColor3;
+    float: left;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2rem;
+    background: var(--labelColor3);
+    color: black;
+}
+
+.url2 {
+    transform: translate(0px, -105px)
+}
+
+.url3 {
+    transform: translate(0px, -210px)
+}
+
+.labelsliderleft {
+    float: left;
+    cursor: pointer;
+    margin-left: 120px;
+    display: block;
+    font-weight: bold;
+}
+
+.labelsliderright {
+    float: right;
+    cursor: pointer;
+    margin-right: 120px;
+    display: block;
+    font-weight: bold;
+}
+
