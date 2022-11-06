@@ -1,0 +1,27 @@
+
+.Navnefelt[type=text] {
+    width: 500px;
+}
+
+.slider-wrapper{
+    position: relative;
+    margin: 1rem;
+}
+
+.slider{
+    width: 500px;
+    height: 20px;
+    border-radius: 25px;
+    margin-left: -10px;
+
+
+}
+
+.slider-wrapper span{
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
