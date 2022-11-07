@@ -1,8 +1,12 @@
+.container{
+    width: 1000px;
+    margin-left: 475px;
+}
 .slider1 {
     --sliderSize: 15px;
     --sliderColor1: #111111;
     -webkit-appearance: none;
-    width: 40%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
     background: rgba(200, 200, 200, 1);
@@ -16,7 +20,7 @@
     --sliderSize: 15px;
     --sliderColor2: #111111;
     -webkit-appearance: none;
-    width: 40%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0);
@@ -29,7 +33,7 @@
     --sliderSize: 15px;
     --sliderColor3: #111111;
     -webkit-appearance: none;
-    width: 40%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0);
@@ -41,7 +45,7 @@
     --sliderSize: 15px;
     --sliderColor4: #111111;
     -webkit-appearance: none;
-    width: 40%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0);
@@ -53,7 +57,7 @@
     --sliderSize: 15px;
     --sliderColor5: #111111;
     -webkit-appearance: none;
-    width: 40%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0);
@@ -66,7 +70,7 @@
     --sliderSize: 15px;
     --sliderColor6: #111111;
     -webkit-appearance: none;
-    width: 40%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
     background: rgba(255, 255, 255, 0);
@@ -160,13 +164,16 @@
 }
 
 .labelsliderleft {
-    margin-left: 0px;
-    float: left
+    float: left;
+    margin-left: -160px;
+    transform: translate(0px, -20px);
+
 }
 
 .labelsliderright {
-    margin-right: 0px;
-    float: right
+    float: right;
+    margin-right: -210px;
+    transform: translate(0px, -20px);
 }
 
 .navnurl1 {
