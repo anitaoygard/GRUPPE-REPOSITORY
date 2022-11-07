@@ -1,0 +1,46 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"4aa06852-95e8-4ffb-8615-4b237c92406c\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2EM1v8WEkwHAo4P7JOBiIT95Xqg\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RunManager\">\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\n      <module name=\"GRUPPE-REPOSITORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\n      <module name=\"GRUPPE-REPOSITORY\" />\n      <option name=\"filePath\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"4aa06852-95e8-4ffb-8615-4b237c92406c\" name=\"Changes\" comment=\"\" />\n      <created>1662390867057</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1662390867057</updated>\n    </task>\n    <task id=\"LOCAL−00001\" summary=\"La til navn og individuell repository\">\n      <created>1662391023717</created>\n      <option name=\"number\" value=\"LOCAL−00001\" />\n      <option name=\"presentableId\" value=\"LOCAL−00001\" />\n      <updated>1662391023717</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"La til navn og individuell repository\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"La til navn og individuell repository\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a98041190e11d26dfd1914d3af262394f9aa5e96)
++++ b/.idea/workspace.xml	(date 1662552075752)
+@@ -1,9 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="4aa06852-95e8-4ffb-8615-4b237c92406c" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+-    </list>
++    <list default="true" id="4aa06852-95e8-4ffb-8615-4b237c92406c" name="Changes" comment="hei" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -57,7 +55,13 @@
+       <option name="presentableId" value="LOCAL−00001" />
+       <updated>1662391023717</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL−00002" summary="hei">
++      <created>1662551982727</created>
++      <option name="number" value="LOCAL−00002" />
++      <option name="presentableId" value="LOCAL−00002" />
++      <updated>1662551982727</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -73,6 +77,7 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="La til navn og individuell repository" />
+-    <option name="LAST_COMMIT_MESSAGE" value="La til navn og individuell repository" />
++    <MESSAGE value="hei" />
++    <option name="LAST_COMMIT_MESSAGE" value="hei" />
+   </component>
+ </project>
+\ No newline at end of file
