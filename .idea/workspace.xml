@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="added navigation to flagg.html" />
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Formated navigation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667732934542</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Formated navigation">
+      <created>1667733165985</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667733165985</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +187,7 @@
     <MESSAGE value="Changed index file from flag to how we roll" />
     <MESSAGE value="added flagg.html to index navigation" />
     <MESSAGE value="added navigation to flagg.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="added navigation to flagg.html" />
+    <MESSAGE value="Formated navigation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formated navigation" />
   </component>
 </project>
