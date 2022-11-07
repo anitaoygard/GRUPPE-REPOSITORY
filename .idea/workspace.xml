@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="Programmatisk tegnet det nederlandske flagget ved hjelp av &quot;class&quot; attributter." />
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="added navigation to flagg.html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportToHTMLSettings">
-    <option name="printScope" value="1" />
-    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Desktop" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -41,47 +39,33 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/olepa/IdeaProjects/GRUPPE-REPOSITORY&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="GRUPPE-REPOSITORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="GRUPPE-REPOSITORY" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4a101b31-7e13-4b32-9329-599e214af600" name="Changes" comment="" />
+      <changelist id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Endret størrelse på headers." />
       <created>1662390844707</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662390844707</updated>
+      <workItem from="1662398218833" duration="70000" />
+      <workItem from="1662398301104" duration="305000" />
+      <workItem from="1667731786825" duration="494000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -95,51 +79,93 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1662391976223</updated>
     </task>
-    <task id="LOCAL−00003" summary="La til navn og lenke til repository">
-      <created>1662453601009</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1662453601009</updated>
+    <task id="LOCAL-00003" summary="Skrevet og formattert tekst til oppgave 4B">
+      <created>1662397619901</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662397619902</updated>
     </task>
-    <task id="LOCAL−00004" summary="La til x">
-      <created>1662633001521</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1662633001521</updated>
+    <task id="LOCAL-00004" summary="Endret størrelse på headers.">
+      <created>1662397939599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662397939599</updated>
     </task>
-    <task id="LOCAL−00005" summary="La til x">
-      <created>1662633197748</created>
-      <option name="number" value="LOCAL−00005" />
-      <option name="presentableId" value="LOCAL−00005" />
-      <updated>1662633197748</updated>
+    <task id="LOCAL-00005" summary="La til flag kode fra undervisning.">
+      <created>1662398574142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662398574142</updated>
     </task>
-    <task id="LOCAL−00006" summary="Programmatisk tegnet det nederlandske flagget ved hjelp av &quot;class&quot; attributter.">
-      <created>1664844359209</created>
-      <option name="number" value="LOCAL−00006" />
-      <option name="presentableId" value="LOCAL−00006" />
-      <updated>1664844359209</updated>
+    <task id="LOCAL-00006" summary="La til how we roll kode">
+      <created>1667732044864</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732044864</updated>
     </task>
-    <task id="LOCAL−00007" summary="Programmatisk tegnet det nederlandske flagget ved hjelp av &quot;class&quot; attributter.">
-      <created>1665062128830</created>
-      <option name="number" value="LOCAL−00007" />
-      <option name="presentableId" value="LOCAL−00007" />
-      <updated>1665062128830</updated>
+    <task id="LOCAL-00007" summary="La til how we roll kode">
+      <created>1667732280343</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732280343</updated>
     </task>
-    <task id="LOCAL−00008" summary="Programmatisk tegnet det nederlandske flagget ved hjelp av &quot;class&quot; attributter.">
-      <created>1665062410650</created>
-      <option name="number" value="LOCAL−00008" />
-      <option name="presentableId" value="LOCAL−00008" />
-      <updated>1665062410650</updated>
+    <task id="LOCAL-00008" summary="Changed index file from flag to how we roll">
+      <created>1667732430200</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732430200</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added flagg.html to index navigation">
+      <created>1667732758257</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732758257</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added flagg.html to index navigation">
+      <created>1667732891035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732891035</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added navigation to flagg.html">
+      <created>1667732934542</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732934542</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/AyatFarhat" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -147,8 +173,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="La til navn og lenke til repository" />
-    <MESSAGE value="La til x" />
-    <MESSAGE value="Programmatisk tegnet det nederlandske flagget ved hjelp av &quot;class&quot; attributter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Programmatisk tegnet det nederlandske flagget ved hjelp av &quot;class&quot; attributter." />
+    <MESSAGE value="Skrevet og formattert tekst til oppgave 4B" />
+    <MESSAGE value="Endret størrelse på headers." />
+    <MESSAGE value="La til flag kode fra undervisning." />
+    <MESSAGE value="La til how we roll kode" />
+    <MESSAGE value="Changed index file from flag to how we roll" />
+    <MESSAGE value="added flagg.html to index navigation" />
+    <MESSAGE value="added navigation to flagg.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="added navigation to flagg.html" />
   </component>
 </project>
