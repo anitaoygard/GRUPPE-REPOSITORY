@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Aligment of elements for rapport and form in css." />
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Added correct image link" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668104446173</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added correct image link">
+      <created>1668104823102</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668104823102</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +203,7 @@
     <MESSAGE value="added navigation to flagg.html" />
     <MESSAGE value="Formated navigation" />
     <MESSAGE value="Aligment of elements for rapport and form in css." />
-    <option name="LAST_COMMIT_MESSAGE" value="Aligment of elements for rapport and form in css." />
+    <MESSAGE value="Added correct image link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added correct image link" />
   </component>
 </project>
