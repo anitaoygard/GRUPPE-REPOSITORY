@@ -34,7 +34,7 @@ fetch(url1)
             document.querySelector("#slider11url1input").style.setProperty('--sliderColor1', data.Farge);
 
             document.querySelector("#navnurl1").style.setProperty('--labelColor1', data.Farge);
-
+console.log(data)
     })
 
 fetch(url2)
