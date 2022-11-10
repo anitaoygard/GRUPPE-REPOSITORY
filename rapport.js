@@ -1,52 +1,209 @@
-var url1 = 'https://bacit.info/hwr/20221106025340-599fb6f7abacd2778246b1572122f26a.json'
-var url2 = 'https://bacit.info/hwr/20221106025431-4aa4e931425328d15f191efe40cceaa3.json'
-var url3 = 'https://bacit.info/hwr/20221106025506-4bcd91d9ce4e466fa1578ca33950b2da.json'
+var url1 = 'https://bacit.info/hwr/20221107122737-5ff49ca7a247ffaf3c9f2cb257f06a03.json'
+var url2 = 'https://bacit.info/hwr/20221107122834-8d840928eb710f242ee4ea39ea07e77c.json'
+var url3 = 'https://bacit.info/hwr/20221107122916-d6a0f16ee2b6cea17f39c7d2b1ca3200.json'
+var url4 = 'https://bacit.info/hwr/20221107123002-6e368ceeeb404e1579e23b040ade9a5b.json'
+var url5 = 'https://bacit.info/hwr/20221107123047-8065623c02f73285f01d1d20d2cc9b37.json'
+var url6 = 'https://bacit.info/hwr/20221107123134-362d883359ec0480b8e69ea4f1487170.json'
 
 fetch(url1)
     .then(response => response.json())
-    .then(data => { document.querySelector("#slider11input").value = data.Slider1;
-        document.querySelector("#slider21input").value = data.Slider2;
-        document.querySelector("#slider31input").value = data.Slider3;
-        document.querySelector("#slider41input").value = data.Slider4;
-        document.querySelector("#slider51input").value = data.Slider5;
-        document.querySelector("#slider11label").innerHTML = data.Navn;
-        document.querySelector("#slider11input").style.setProperty('--sliderColor1', data.Farge);
-        document.querySelector("#slider21input").style.setProperty('--sliderColor1', data.Farge);
-        document.querySelector("#slider31input").style.setProperty('--sliderColor1', data.Farge);
-        document.querySelector("#slider41input").style.setProperty('--sliderColor1', data.Farge);
-        document.querySelector("#slider51input").style.setProperty('--sliderColor1', data.Farge);
-        document.querySelector("#slider11label").style.setProperty('--labelColor1', data.Farge);
+    .then(data => { document.querySelector("#slider1url1input").value = data.Slider1;
+            document.querySelector("#slider2url1input").value = data.Slider2;
+            document.querySelector("#slider3url1input").value = data.Slider3;
+            document.querySelector("#slider4url1input").value = data.Slider4;
+            document.querySelector("#slider5url1input").value = data.Slider5;
+            document.querySelector("#slider6url1input").value = data.Slider6;
+            document.querySelector("#slider7url1input").value = data.Slider7;
+            document.querySelector("#slider8url1input").value = data.Slider8;
+            document.querySelector("#slider9url1input").value = data.Slider9;
+            document.querySelector("#slider10url1input").value = data.Slider10;
+            document.querySelector("#slider11url1input").value = data.Slider11;
+
+            document.querySelector("#navnurl1").innerHTML = data.Navn;
+
+            document.querySelector("#slider1url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider2url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider3url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider4url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider5url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider6url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider7url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider8url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider9url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider10url1input").style.setProperty('--sliderColor1', data.Farge);
+            document.querySelector("#slider11url1input").style.setProperty('--sliderColor1', data.Farge);
+
+            document.querySelector("#navnurl1").style.setProperty('--labelColor1', data.Farge);
+
     })
 
 fetch(url2)
     .then(response => response.json())
-    .then(data => { document.querySelector("#slider12input").value = data.Slider1;
-        document.querySelector("#slider22input").value = data.Slider2;
-        document.querySelector("#slider32input").value = data.Slider3;
-        document.querySelector("#slider42input").value = data.Slider4;
-        document.querySelector("#slider52input").value = data.Slider5;
-        document.querySelector("#slider22label").innerHTML = data.Navn;
-        document.querySelector("#slider12input").style.setProperty('--sliderColor2', data.Farge);
-        document.querySelector("#slider22input").style.setProperty('--sliderColor2', data.Farge);
-        document.querySelector("#slider32input").style.setProperty('--sliderColor2', data.Farge);
-        document.querySelector("#slider42input").style.setProperty('--sliderColor2', data.Farge);
-        document.querySelector("#slider52input").style.setProperty('--sliderColor2', data.Farge);
-        document.querySelector("#slider22label").style.setProperty('--labelColor2', data.Farge);
+    .then(data => { document.querySelector("#slider1url2input").value = data.Slider1;
+            document.querySelector("#slider2url2input").value = data.Slider2;
+            document.querySelector("#slider3url2input").value = data.Slider3;
+            document.querySelector("#slider4url2input").value = data.Slider4;
+            document.querySelector("#slider5url2input").value = data.Slider5;
+            document.querySelector("#slider6url2input").value = data.Slider6;
+            document.querySelector("#slider7url2input").value = data.Slider7;
+            document.querySelector("#slider8url2input").value = data.Slider8;
+            document.querySelector("#slider9url2input").value = data.Slider9;
+            document.querySelector("#slider10url2input").value = data.Slider10;
+            document.querySelector("#slider11url2input").value = data.Slider11;
+
+            document.querySelector("#navnurl2").innerHTML = data.Navn;
+
+            document.querySelector("#slider1url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider2url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider3url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider4url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider5url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider6url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider7url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider8url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider9url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider10url2input").style.setProperty('--sliderColor2', data.Farge);
+            document.querySelector("#slider11url2input").style.setProperty('--sliderColor2', data.Farge);
+
+            document.querySelector("#navnurl2").style.setProperty('--labelColor2', data.Farge);
     })
 
 fetch(url3)
     .then(response => response.json())
-    .then(data => { document.querySelector("#slider13input").value = data.Slider1;
-        document.querySelector("#slider23input").value = data.Slider2;
-        document.querySelector("#slider33input").value = data.Slider3;
-        document.querySelector("#slider43input").value = data.Slider4;
-        document.querySelector("#slider53input").value = data.Slider5;
-        document.querySelector("#slider33label").innerHTML = data.Navn;
-        document.querySelector("#slider13input").style.setProperty('--sliderColor3', data.Farge);
-        document.querySelector("#slider23input").style.setProperty('--sliderColor3', data.Farge);
-        document.querySelector("#slider33input").style.setProperty('--sliderColor3', data.Farge);
-        document.querySelector("#slider43input").style.setProperty('--sliderColor3', data.Farge);
-        document.querySelector("#slider53input").style.setProperty('--sliderColor3', data.Farge);
-        document.querySelector("#slider33label").style.setProperty('--labelColor3', data.Farge);
+    .then(data => { document.querySelector("#slider1url3input").value = data.Slider1;
+            document.querySelector("#slider2url3input").value = data.Slider2;
+            document.querySelector("#slider3url3input").value = data.Slider3;
+            document.querySelector("#slider4url3input").value = data.Slider4;
+            document.querySelector("#slider5url3input").value = data.Slider5;
+            document.querySelector("#slider6url3input").value = data.Slider6;
+            document.querySelector("#slider7url3input").value = data.Slider7;
+            document.querySelector("#slider8url3input").value = data.Slider8;
+            document.querySelector("#slider9url3input").value = data.Slider9;
+            document.querySelector("#slider10url3input").value = data.Slider10;
+            document.querySelector("#slider11url3input").value = data.Slider11;
+
+            document.querySelector("#navnurl3").innerHTML = data.Navn;
+
+            document.querySelector("#slider1url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider2url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider3url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider4url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider5url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider6url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider7url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider8url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider9url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider10url3input").style.setProperty('--sliderColor3', data.Farge);
+            document.querySelector("#slider11url3input").style.setProperty('--sliderColor3', data.Farge);
+
+            document.querySelector("#navnurl3").style.setProperty('--labelColor3', data.Farge);
     })
+
+fetch(url4)
+    .then(response => response.json())
+    .then(data => { document.querySelector("#slider1url4input").value = data.Slider1;
+            document.querySelector("#slider2url4input").value = data.Slider2;
+            document.querySelector("#slider3url4input").value = data.Slider3;
+            document.querySelector("#slider4url4input").value = data.Slider4;
+            document.querySelector("#slider5url4input").value = data.Slider5;
+            document.querySelector("#slider6url4input").value = data.Slider6;
+            document.querySelector("#slider7url4input").value = data.Slider7;
+            document.querySelector("#slider8url4input").value = data.Slider8;
+            document.querySelector("#slider9url4input").value = data.Slider9;
+            document.querySelector("#slider10url4input").value = data.Slider10;
+            document.querySelector("#slider11url4input").value = data.Slider11;
+
+            document.querySelector("#navnurl4").innerHTML = data.Navn;
+
+            document.querySelector("#slider1url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider2url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider3url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider4url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider5url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider6url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider7url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider8url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider9url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider10url4input").style.setProperty('--sliderColor4', data.Farge);
+            document.querySelector("#slider11url4input").style.setProperty('--sliderColor4', data.Farge);
+
+            document.querySelector("#navnurl4").style.setProperty('--labelColor4', data.Farge);
+    })
+
+fetch(url5)
+    .then(response => response.json())
+    .then(data => { document.querySelector("#slider1url5input").value = data.Slider1;
+            document.querySelector("#slider2url5input").value = data.Slider2;
+            document.querySelector("#slider3url5input").value = data.Slider3;
+            document.querySelector("#slider4url5input").value = data.Slider4;
+            document.querySelector("#slider5url5input").value = data.Slider5;
+            document.querySelector("#slider6url5input").value = data.Slider6;
+            document.querySelector("#slider7url5input").value = data.Slider7;
+            document.querySelector("#slider8url5input").value = data.Slider8;
+            document.querySelector("#slider9url5input").value = data.Slider9;
+            document.querySelector("#slider10url5input").value = data.Slider10;
+            document.querySelector("#slider11url5input").value = data.Slider11;
+
+            document.querySelector("#navnurl5").innerHTML = data.Navn;
+
+            document.querySelector("#slider1url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider2url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider3url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider4url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider5url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider6url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider7url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider8url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider9url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider10url5input").style.setProperty('--sliderColor5', data.Farge);
+            document.querySelector("#slider11url5input").style.setProperty('--sliderColor5', data.Farge);
+
+            document.querySelector("#navnurl5").style.setProperty('--labelColor5', data.Farge);
+    })
+
+fetch(url6)
+    .then(response => response.json())
+    .then(data => { document.querySelector("#slider1url6input").value = data.Slider1;
+            document.querySelector("#slider2url6input").value = data.Slider2;
+            document.querySelector("#slider3url6input").value = data.Slider3;
+            document.querySelector("#slider4url6input").value = data.Slider4;
+            document.querySelector("#slider5url6input").value = data.Slider5;
+            document.querySelector("#slider6url6input").value = data.Slider6;
+            document.querySelector("#slider7url6input").value = data.Slider7;
+            document.querySelector("#slider8url6input").value = data.Slider8;
+            document.querySelector("#slider9url6input").value = data.Slider9;
+            document.querySelector("#slider10url6input").value = data.Slider10;
+            document.querySelector("#slider11url6input").value = data.Slider11;
+
+            document.querySelector("#navnurl6").innerHTML = data.Navn;
+
+            document.querySelector("#slider1url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider2url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider3url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider4url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider5url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider6url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider7url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider8url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider9url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider10url6input").style.setProperty('--sliderColor6', data.Farge);
+            document.querySelector("#slider11url6input").style.setProperty('--sliderColor6', data.Farge);
+
+            document.querySelector("#navnurl6").style.setProperty('--labelColor6', data.Farge);
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

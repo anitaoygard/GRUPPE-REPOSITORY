@@ -1,27 +1,55 @@
 
-.Navnefelt[type=text] {
-    width: 500px;
-}
-
-.slider-wrapper{
-    position: relative;
-    margin: 1rem;
+.navnefelt[type=text] {
+    width: 490px;
+    margin-left: 425px;
 }
 
 .slider{
+    --sliderSize: 15px;
+    -webkit-appearance: none;
+    width: 40%;
+    height: 15px;
+    border-radius: 5px;
+    background: rgba(240, 240, 240, 1);
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    width: var(--sliderSize);
+    height: var(--sliderSize);
+    border-radius: 50%;
+}
+
+.labelleft{
+    margin-left: 100px;
+
+    float: left;
+    display: block;
+}
+
+.labelright{
+    margin-right: 100px;
+    float: right;
+    display: block;
+}
+
+.btn {
     width: 500px;
-    height: 20px;
-    border-radius: 25px;
-    margin-left: -10px;
+    transform: translate(425px, 350px);
+}
 
+.farge {
+    margin-left: 650px;
+}
+
+.fargelabel {
+    margin-left: -100px;
+}
+.labelnavn {
+    margin-left: 603px;
 
 }
 
-.slider-wrapper span{
-    position: absolute;
-    bottom: 50%;
-    transform: translateY(50%);
-    margin-left: 20px;
-    font-size: 2rem;
+.navigation {
+    margin-top: -200px;
 }
-

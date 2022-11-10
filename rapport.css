@@ -1,44 +1,84 @@
+.container{
+    width: 1000px;
+    margin-left: 475px;
+}
 .slider1 {
     --sliderSize: 15px;
     --sliderColor1: #111111;
     -webkit-appearance: none;
-    width: 60%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
-    background: rgba(240, 240, 240, 1);
-    outline: none;
+    background: rgba(200, 200, 200, 1);
 
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+
+
 }
+
 
 .slider2 {
     --sliderSize: 15px;
     --sliderColor2: #111111;
     -webkit-appearance: none;
-    width: 60%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
-    background: rgba(240, 240, 240, 0);
-    outline: none;
-    opacity: 1;
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+    background: rgba(255, 255, 255, 0);
+
+
+
+
 }
 .slider3 {
     --sliderSize: 15px;
     --sliderColor3: #111111;
     -webkit-appearance: none;
-    width: 60%;
+    width: 100%;
     height: 15px;
     border-radius: 5px;
-    background: rgba(240, 240, 240, 0);
-    outline: none;
-    opacity: 1;
+    background: rgba(255, 255, 255, 0);
 
-    -webkit-transition: .2s;
-    transition: opacity .2s;
+
+
 }
+.slider4 {
+    --sliderSize: 15px;
+    --sliderColor4: #111111;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+
+
+
+}
+.slider5 {
+    --sliderSize: 15px;
+    --sliderColor5: #111111;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+
+
+
+
+}
+.slider6 {
+    --sliderSize: 15px;
+    --sliderColor6: #111111;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+
+
+}
+
+
 
 .slider1::-webkit-slider-thumb {
     -webkit-appearance: none;
@@ -47,6 +87,7 @@
     height: var(--sliderSize);
     border-radius: 50%;
     background: var(--sliderColor1);
+    opacity: 1;
 
 }
 
@@ -57,7 +98,7 @@
     height: var(--sliderSize);
     border-radius: 50%;
     background: var(--sliderColor2);
-
+    opacity: 1;
 }
 
 .slider3::-webkit-slider-thumb {
@@ -67,66 +108,125 @@
     height: var(--sliderSize);
     border-radius: 50%;
     background: var(--sliderColor3);
-
+    opacity: 1;
 }
 
-.label1 {
-    margin-top: -280px;
-    --labelColor1;
-    float: left;
-    display: block;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 2rem;
-    background: var(--labelColor1);
-    color: black;
+.slider4::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: var(--sliderSize);
+    height: var(--sliderSize);
+    border-radius: 50%;
+    background: var(--sliderColor4);
+    opacity: 1;
 }
 
-.label2 {
-    margin-top: -260px;
-    --labelColor2;
-    float: left;
-    display: block;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 2rem;
-    background: var(--labelColor2);
-    color: black;
+.slider5::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: var(--sliderSize);
+    height: var(--sliderSize);
+    border-radius: 50%;
+    background: var(--sliderColor5);
+    opacity: 1;
 }
 
-.label3 {
-    margin-top: -240px;
-    --labelColor3;
-    float: left;
-    display: block;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 2rem;
-    background: var(--labelColor3);
-    color: black;
+.slider6::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: var(--sliderSize);
+    height: var(--sliderSize);
+    border-radius: 50%;
+    background: var(--sliderColor6);
+    opacity: 1;
 }
+
+
 
 .url2 {
-    transform: translate(0px, -105px)
+    transform: translate(0px, -231px)
 }
 
 .url3 {
-    transform: translate(0px, -210px)
+    transform: translate(0px, -462px)
+}
+
+.url4 {
+    transform: translate(0px, -693px)
+}
+
+.url5 {
+    transform: translate(0px, -924px)
+}
+
+.url6 {
+    transform: translate(0px, -1155px)
 }
 
 .labelsliderleft {
     float: left;
-    cursor: pointer;
-    margin-left: 120px;
-    display: block;
-    font-weight: bold;
+    margin-left: -160px;
+    transform: translate(0px, -20px);
+
 }
 
 .labelsliderright {
     float: right;
-    cursor: pointer;
-    margin-right: 120px;
+    margin-right: -210px;
+    transform: translate(0px, -20px);
+}
+
+.navnurl1 {
+    --labelColor1;
+    float: top;
     display: block;
     font-weight: bold;
+    background: var(--labelColor1);
+    transform: translate(0px, -260px)
+}
+
+.navnurl2 {
+    --labelColor2;
+    float: top;
+    display: block;
+    font-weight: bold;
+    background: var(--labelColor2);
+    transform: translate(0px, -260px)
+}
+
+.navnurl3 {
+    --labelColor3;
+    float: top;
+    display: block;
+    font-weight: bold;
+    background: var(--labelColor3);
+    transform: translate(0px, -260px)
+}
+
+.navnurl4 {
+    --labelColor4;
+    float: top;
+    display: block;
+    font-weight: bold;
+    background: var(--labelColor4);
+    transform: translate(0px, -260px)
+}
+
+.navnurl5 {
+    --labelColor5;
+    float: top;
+    display: block;
+    font-weight: bold;
+    background: var(--labelColor5);
+    transform: translate(0px, -260px)
+}
+
+.navnurl6 {
+    --labelColor6;
+    float: top;
+    display: block;
+    font-weight: bold;
+    background: var(--labelColor6);
+    transform: translate(0px, -260px)
 }
 
