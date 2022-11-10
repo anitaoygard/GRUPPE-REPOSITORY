@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="La til how we roll kode">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rapport.css" beforeDir="false" afterPath="$PROJECT_DIR$/rapport.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rapport.html" beforeDir="false" afterPath="$PROJECT_DIR$/rapport.html" afterDir="false" />
-    </list>
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Aligment of elements for rapport and form in css." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667733165985</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Aligment of elements for rapport and form in css.">
+      <created>1668104446173</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668104446173</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +195,7 @@
     <MESSAGE value="added flagg.html to index navigation" />
     <MESSAGE value="added navigation to flagg.html" />
     <MESSAGE value="Formated navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formated navigation" />
+    <MESSAGE value="Aligment of elements for rapport and form in css." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aligment of elements for rapport and form in css." />
   </component>
 </project>
