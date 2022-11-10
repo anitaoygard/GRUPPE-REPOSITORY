@@ -93,7 +93,7 @@ body {
 
 
 .header {
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("/image/uia.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("./image/uia.jpg");
     background-size: cover;
     padding-top: 25px;
     padding-bottom: 200px;
