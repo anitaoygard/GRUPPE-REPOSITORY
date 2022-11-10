@@ -33,16 +33,19 @@ body {
 
 .navnefelt[type=text] {
     width: 300px;
-    margin-left: 575px;
+    margin-left: 800px;
+    background: rgba(200, 200, 200, 1);
 }
+
+
 
 .slider{
     --sliderSize: 15px;
     -webkit-appearance: none;
-    width: 40%;
+    width: 92%;
     height: 15px;
     border-radius: 5px;
-    background: rgba(240, 240, 240, 1);
+    background: rgba(200, 200, 200, 1);
     outline: none;
 }
 
@@ -68,7 +71,7 @@ body {
 /*Kode funnet på w3shcool*/
 .btn {
     width: 300px;
-    transform: translate(575px, 40px);
+    transform: translate(590px, 40px);
     background-color: purple;
     color: white;
     border: none;
@@ -78,14 +81,14 @@ body {
 }
 
 .farge {
-    margin-left: 700px;
+    margin-left: 926px;
 }
 
 .fargelabel {
-    margin-left: -100px;
+    margin-left: -180px;
 }
 .labelnavn {
-    margin-left: 700px;
+    margin-left: 800px;
 }
 
 
