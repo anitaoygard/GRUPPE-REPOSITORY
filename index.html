@@ -3,18 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <canvas id="can" height="200" width="300"></canvas>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<div class="topnav">
+    <a class="active" href="index.html">Forms</a>
+    <a href="rapport.html">Rapport</a>
+    <a href="flagg.html">Flagg</a>
+</div>
+
+
+<section class="header">
+
+<!--
 <ul id="navigation" class="navigation">
     <li><a href="rapport.html">WEB-RAPPORT</a></li>
     <li><a href="index.html">WEB-FORM</a></li>
     <li><a href="flagg.html">Flagg</a></li>
 </ul>
+-->
 
-<button class="btn" onclick="exportJson()">Export</button>
+<h1 style="font-size: 50px; margin-left: 585px; margin-right">How We Roll</h1>
+
 
 <form>
     <label class="labelnavn" id="labelnavn" for="navnefelt">Navn:</label><br>
@@ -88,26 +99,27 @@
     <div class="slider-wrapper">
         <input type="range" min="0" max="100" value="" class="slider" id="slider9" />
 
-        <label class="labelleft" for="slider9">Placeholder</label>
-        <label class="labelright" for="slider9">Placeholder</label>
+        <label class="labelleft" for="slider9">Physical attendance</label>
+        <label class="labelright" for="slider9">Discord chat</label>
     </div>
 
     <div class="slider-wrapper">
         <input type="range" min="0" max="100" value="" class="slider" id="slider10" />
 
-        <label class="labelleft" for="slider10">Placeholder</label>
-        <label class="labelright" for="slider10">Placeholder</label>
+        <label class="labelleft" for="slider10">Leader</label>
+        <label class="labelright" for="slider10">Follower</label>
     </div>
 
     <div class="slider-wrapper">
         <input type="range" min="0" max="100" value="" class="slider" id="slider11" />
 
-        <label class="labelleft" for="slider11">Placeholder</label>
-        <label class="labelright" for="slider11">Placeholder</label>
+        <label class="labelleft" for="slider11">Always on time</label>
+        <label class="labelright" for="slider11">Never on time</label>
     </div>
 
 </div>
-
+    <button class="btn" onclick="exportJson()">Export</button>
+</section>
 
 <script src="main.js"></script>
 </body>
