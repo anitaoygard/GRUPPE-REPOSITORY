@@ -1,7 +1,7 @@
 var url1 = 'https://bacit.info/hwr/20221114123929-4309f946bae8c7dc2999249c0d37a01f.json'
 var url2 = 'https://bacit.info/hwr/20221107122834-8d840928eb710f242ee4ea39ea07e77c.json'
 var url3 = 'https://bacit.info/hwr/20221107122916-d6a0f16ee2b6cea17f39c7d2b1ca3200.json'
-var url4 = 'https://bacit.info/hwr/20221107123002-6e368ceeeb404e1579e23b040ade9a5b.json'
+var url4 = 'https://bacit.info/hwr/20221114124804-d14ec459bc93b2014bdfbc97e2b10549.json'
 var url5 = 'https://bacit.info/hwr/20221107123047-8065623c02f73285f01d1d20d2cc9b37.json'
 var url6 = 'https://bacit.info/hwr/20221107123134-362d883359ec0480b8e69ea4f1487170.json'
 
