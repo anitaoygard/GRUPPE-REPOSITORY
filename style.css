@@ -33,7 +33,7 @@ body {
 
 .navnefelt[type=text] {
     width: 300px;
-    margin-left: 800px;
+    margin-left: 400px;
     background: rgba(200, 200, 200, 1);
 }
 
@@ -41,7 +41,7 @@ body {
     height: 500px;
     width: 1000px;
     position: absolute;
-    margin-left: 450px;
+    margin-left: 50px;
 }
 
 .slider{
@@ -77,7 +77,7 @@ body {
 /*Kode funnet på w3shcool*/
 .btn {
     width: 300px;
-    transform: translate(800px, 450px);
+    transform: translate(400px, 450px);
     background-color: purple;
     color: white;
     border: none;
@@ -87,14 +87,14 @@ body {
 }
 
 .farge {
-    margin-left: 926px;
+    margin-left: 525px;
 }
 
 .fargelabel {
     margin-left: -180px;
 }
 .labelnavn {
-    margin-left: 800px;
+    margin-left: 400px;
 }
 
 

@@ -7,8 +7,8 @@ body {
     .topnav {
         overflow: hidden;
         background-color: #333;
-        height: 153px;
-        width: 4000px;
+        height: 50px;
+        width: 1900px;
     }
 
     .topnav a {
@@ -32,7 +32,7 @@ body {
 
 .container{ 
     width: 1000px;
-    margin-left: 450px;
+    margin-left: 210px;
     display: grid;
    
 }
@@ -159,7 +159,6 @@ body {
 
 .navnurl1 {
     --labelColor1;
-    display: block;
     float: top;
     font-weight: bold;
     background: var(--labelColor1);
@@ -168,7 +167,7 @@ body {
 
 .navnurl2 {
     --labelColor2;
-    display: block;
+
     float: top;
     font-weight: bold;
     background: var(--labelColor2);
@@ -177,7 +176,6 @@ body {
 
 .navnurl3 {
     --labelColor3;
-    display: block; 
     float: top;
     font-weight: bold;
     background: var(--labelColor3);
@@ -186,7 +184,6 @@ body {
 
 .navnurl4 {
     --labelColor4;
-    display: block;
     float: top;
     font-weight: bold;
     background: var(--labelColor4);
@@ -195,7 +192,6 @@ body {
 
 .navnurl5 {
     --labelColor5;
-    display: block;
     float: top;
     font-weight: bold;
     background: var(--labelColor5);
@@ -204,7 +200,6 @@ body {
 
 .navnurl6 {
     --labelColor6;
-    display: block;
     float: top;
     font-weight: bold;
     background: var(--labelColor6);
@@ -214,12 +209,13 @@ body {
 .medContainer{
     display: grid;
     float: left;
-    margin-left: 375px;
+    margin-left: 30px;
 }
 .medlemmer1, .medlemmer2, .medlemmer3, .medlemmer4, .medlemmer5, .medlemmer6{
     width: 400px;
     height: 600px;   
     border: 1px solid #777;
+    margin-left: 10px;
 }
 
 .medlemmer1{
