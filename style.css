@@ -41,7 +41,7 @@ body {
     height: 500px;
     width: 1000px;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 300px;
 }
 
 .slider{
@@ -50,7 +50,8 @@ body {
     width: 100%;
     height: 15px;
     border-radius: 5px;
-    background: rgba(200, 200, 200, 1);
+    border-color: black;
+    background: rgba(200, 200, 200, 0.4);
     outline: none;
     
 }
@@ -62,16 +63,17 @@ body {
 }
 
 .labelleft{
-    margin-left: 100px;
-
+    margin-left: -250px;
     float: left;
     display: block;
+    transform: translate(20px, -20px);
 }
 
 .labelright{
-    margin-right: 100px;
+    margin-right: -250px;
     float: right;
     display: block;
+    transform: translate(20px, -20px);
 }
 
 /*Kode funnet på w3shcool*/

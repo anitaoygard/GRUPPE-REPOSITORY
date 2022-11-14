@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Added correct image link" />
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +66,7 @@
       <workItem from="1662398218833" duration="70000" />
       <workItem from="1662398301104" duration="305000" />
       <workItem from="1667731786825" duration="494000" />
+      <workItem from="1668425584269" duration="366000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -177,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668105195843</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary=".">
+      <created>1668425904942</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668425904942</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +226,7 @@
     <MESSAGE value="Formated navigation" />
     <MESSAGE value="Aligment of elements for rapport and form in css." />
     <MESSAGE value="Added correct image link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added correct image link" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
