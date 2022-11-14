@@ -1,4 +1,4 @@
-var url1 = 'https://bacit.info/hwr/20221107122737-5ff49ca7a247ffaf3c9f2cb257f06a03.json'
+var url1 = 'https://bacit.info/hwr/20221114123929-4309f946bae8c7dc2999249c0d37a01f.json'
 var url2 = 'https://bacit.info/hwr/20221107122834-8d840928eb710f242ee4ea39ea07e77c.json'
 var url3 = 'https://bacit.info/hwr/20221107122916-d6a0f16ee2b6cea17f39c7d2b1ca3200.json'
 var url4 = 'https://bacit.info/hwr/20221107123002-6e368ceeeb404e1579e23b040ade9a5b.json'
