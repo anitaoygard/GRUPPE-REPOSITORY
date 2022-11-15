@@ -3,7 +3,7 @@ var url2 = 'https://bacit.info/hwr/20221115105925-a9a7509ca97e6dbc3b230c7a934522
 var url3 = 'https://bacit.info/hwr/20221115110721-7aadfefce767c75365a0ff4b90c47700.json'
 var url4 = 'https://bacit.info/hwr/20221114124804-d14ec459bc93b2014bdfbc97e2b10549.json'
 var url5 = 'https://bacit.info/hwr/20221115104139-3982a019750b704ee3092c2d78d55946.json'
-var url6 = 'https://bacit.info/hwr/20221115110721-7aadfefce767c75365a0ff4b90c47700.json'
+var url6 = 'https://bacit.info/hwr/20221115111205-31b5094714a420e0bb6ff86469b0817d.json'
 
 fetch(url1)
     .then(response => response.json())
