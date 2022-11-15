@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment=".">
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="beskrev class og id. Også forklarer jeg framgangen min.">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_09_2022__13_58__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_09_2022__13_58__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_09_2022__14_02__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_09_2022__14_02__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,22 +43,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/olepa/IdeaProjects/GRUPPE-REPOSITORY&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/olepa/IdeaProjects/GRUPPE-REPOSITORY",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +73,6 @@
       <workItem from="1662398218833" duration="70000" />
       <workItem from="1662398301104" duration="305000" />
       <workItem from="1667731786825" duration="494000" />
-      <workItem from="1668425584269" duration="1413000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -152,49 +156,7 @@
       <option name="project" value="LOCAL" />
       <updated>1667733165985</updated>
     </task>
-    <task id="LOCAL-00013" summary="Aligment of elements for rapport and form in css.">
-      <created>1668104446173</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1668104446173</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added correct image link">
-      <created>1668104823102</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1668104823102</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Added correct image link">
-      <created>1668104899373</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1668104899373</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Added correct image link">
-      <created>1668105195843</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1668105195843</updated>
-    </task>
-    <task id="LOCAL-00017" summary=".">
-      <created>1668425904942</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1668425904942</updated>
-    </task>
-    <task id="LOCAL-00018" summary=".">
-      <created>1668426364747</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1668426364747</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,9 +195,6 @@
     <MESSAGE value="added flagg.html to index navigation" />
     <MESSAGE value="added navigation to flagg.html" />
     <MESSAGE value="Formated navigation" />
-    <MESSAGE value="Aligment of elements for rapport and form in css." />
-    <MESSAGE value="Added correct image link" />
-    <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="Formated navigation" />
   </component>
 </project>
