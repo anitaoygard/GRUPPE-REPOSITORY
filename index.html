@@ -3,60 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <canvas id="can" height="200" width="300"></canvas>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<ul>
+<div class="topnav">
+    <a class="active" href="index.html">Forms</a>
+    <a href="./rapport/rapport.html">Rapport</a>
+    <a href="./ole/ole.html">Ole</a>
+    <a href="./martine/martine.html">Martine</a>
+    <a href="./anita/anita.html">Anita</a>
+    <a href="./marius/marius.html">Marius</a>
+    <a href="./lamek/lamek.html">Lamek</a>
+    <a href="./ayat/ayat.html">Ayat</a>
+    <a href="./flagg/flagg.html">Flaggoppgaven</a>
+</div>
+
+<section class="header">
+
+<!--
+<ul id="navigation" class="navigation">
     <li><a href="rapport.html">WEB-RAPPORT</a></li>
     <li><a href="index.html">WEB-FORM</a></li>
     <li><a href="flagg.html">Flagg</a></li>
-
 </ul>
+-->
 
-<button onclick="exportJson()">Export</button>
+<h1 style="font-size: 50px; margin-left: 400px; margin-right">How We Roll</h1>
+
 
 <form>
-    <label for="navnefelt">Navn:</label><br>
-    <input type="text" id="navnefelt" id="navnefelt" class="navnefelt"><br>
+    <label class="labelnavn" id="labelnavn" for="navnefelt">Navn:</label><br>
+    <input type="text" id="navnefelt"  class="navnefelt"><br>
 </form>
 
 <div>
-    <input type="color" id="farge" id="farge">
-    <label for="Farge">Farge:</label>
+    <input type="color" class="farge" id="farge">
+    <label class="fargelabel" id="fargelabel" for="farge">Farge:</label>
 </div>
 
-<div class="container">
+<div class="container" align="center">
 
     <div class="slider-wrapper">
-        <input type="range" min="0" max="100" value="50" class="slider" id="slider1" />
-        <span>50</span>
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider1" />
+
+        <label class="labelleft" for="slider1">Early bird</label>
+        <label class="labelright" for="slider1">Night owl</label>
+    </div>
+
+
+    <div class="slider-wrapper">
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider2" />
+
+        <label class="labelleft" for="slider2">Work on it together</label>
+        <label class="labelright" for="slider2">Go off alone and think</label>
     </div>
 
     <div class="slider-wrapper">
-        <input type="range" min="0" max="100" value="50" class="slider" id="slider2" />
-        <span>50</span>
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider3" />
+
+        <label class="labelleft" for="slider3">Tell me the backstory</label>
+        <label class="labelright" for="slider3">Cut to the chase</label>
     </div>
 
     <div class="slider-wrapper">
-        <input type="range" min="0" max="100" value="50" class="slider" id="slider3" />
-        <span>50</span>
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider4" />
+
+        <label class="labelleft" for="slider4">Need to talk it out</label>
+        <label class="labelright" for="slider4">Need to move on</label>
     </div>
 
     <div class="slider-wrapper">
-        <input type="range" min="0" max="100" value="50" class="slider" id="slider4" />
-        <span>50</span>
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider5" />
+
+        <label class="labelleft" for="slider5">Verbal processor</label>
+        <label class="labelright" for="slider5">Mental processor</label>
     </div>
 
     <div class="slider-wrapper">
-        <input type="range" min="0" max="100" value="50" class="slider" id="slider5" />
-        <span>50</span>
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider6" />
+
+        <label class="labelleft" for="slider6">Schedule a time to chat</label>
+        <label class="labelright" for="slider6">Interrupt me when you need me</label>
+    </div>
+
+    <div class="slider-wrapper">
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider7" />
+
+        <label class="labelleft" for="slider7">Video chat</label>
+        <label class="labelright" for="slider7">Slack/text</label>
+    </div>
+
+    <div class="slider-wrapper">
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider8" />
+
+        <label class="labelleft" for="slider8">09-17 Hours</label>
+        <label class="labelright" for="slider8">I have no set schedule</label>
+    </div>
+
+    <div class="slider-wrapper">
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider9" />
+
+        <label class="labelleft" for="slider9">Physical attendance</label>
+        <label class="labelright" for="slider9">Discord chat</label>
+    </div>
+
+    <div class="slider-wrapper">
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider10" />
+
+        <label class="labelleft" for="slider10">Leader</label>
+        <label class="labelright" for="slider10">Follower</label>
+    </div>
+
+    <div class="slider-wrapper">
+        <input type="range" min="0" max="1000" value="" class="slider" id="slider11" />
+
+        <label class="labelleft" for="slider11">Always on time</label>
+        <label class="labelright" for="slider11">Never on time</label>
     </div>
 
 </div>
-
+    <button class="btn" onclick="exportJson()">Export</button>
+</section>
 
 <script src="main.js"></script>
 </body>
 </html>
+
