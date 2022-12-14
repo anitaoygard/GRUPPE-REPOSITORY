@@ -39,7 +39,7 @@ body {
 
 .container{
     height: 500px;
-    width: 1000px;
+    width: 500px;
     position: absolute;
     margin-left: 300px;
 }
@@ -79,7 +79,7 @@ body {
 /*Kode funnet på w3shcool*/
 .btn {
     width: 300px;
-    transform: translate(400px, 450px);
+    transform: translate(400px, 250px);
     background-color: red;
     color: white;
     border: none;

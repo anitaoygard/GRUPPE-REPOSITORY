@@ -2,6 +2,8 @@ body {
     margin: 0px;
     font-family: Lato, Helvetica, sans-serif;
     color: black;
+    background-image: linear-gradient(-90deg, slategray, dimgray);
+
 }
 
     .topnav {
@@ -32,7 +34,7 @@ body {
 
 .container{ 
     width: 1000px;
-    margin-left: 400px;
+    margin-left: 450px;
     display: grid;
     pointer-events: none;
    
@@ -48,7 +50,7 @@ body {
     --sliderSize: 15px;
     --sliderColor1: #111111;
     --sliderOpacity1: 1;
-    background: rgba(200, 200, 200, 1);
+    background: rgba(255, 255, 255, 0.7);
 
 }
 
@@ -199,3 +201,7 @@ body {
     background: var(--labelColor6);
 }
 
+
+.myCheckbox1, .myCheckbox2, .myCheckbox3, .myCheckbox4, .myCheckbox5, .myCheckbox6 {
+
+}
