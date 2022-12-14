@@ -34,7 +34,6 @@ fetch(url1)
             document.querySelector("#slider11url1input").style.setProperty('--sliderColor1', data.Farge);
 
             document.querySelector("#navnurl1").style.setProperty('--labelColor1', data.Farge);
-console.log(data)
     })
 
 fetch(url2)
@@ -192,7 +191,185 @@ fetch(url6)
             document.querySelector("#navnurl6").style.setProperty('--labelColor6', data.Farge);
     })
 
+    function toggleOpacity1() {
+        var checkbox = document.getElementById("myCheckbox1");
+        if (checkbox.checked) {
+                document.querySelector("#slider1url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider2url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider3url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider4url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider5url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider6url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider7url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider8url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider9url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider10url1input").style.setProperty('--sliderOpacity1', 1);
+            document.querySelector("#slider11url1input").style.setProperty('--sliderOpacity1', 1);
+        } else {
+                document.querySelector("#slider1url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider2url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider3url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider4url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider5url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider6url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider7url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider8url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider9url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider10url1input").style.setProperty('--sliderOpacity1', 0);
+            document.querySelector("#slider11url1input").style.setProperty('--sliderOpacity1', 0);
+        }
+      }
 
+      function toggleOpacity2() {
+        var checkbox = document.getElementById("myCheckbox2");
+        if (checkbox.checked) {
+                document.querySelector("#slider1url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider2url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider3url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider4url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider5url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider6url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider7url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider8url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider9url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider10url2input").style.setProperty('--sliderOpacity2', 1);
+            document.querySelector("#slider11url2input").style.setProperty('--sliderOpacity2', 1);
+        } else {
+                document.querySelector("#slider1url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider2url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider3url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider4url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider5url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider6url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider7url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider8url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider9url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider10url2input").style.setProperty('--sliderOpacity2', 0);
+            document.querySelector("#slider11url2input").style.setProperty('--sliderOpacity2', 0);
+        }
+      }
+
+      function toggleOpacity3() {
+        var checkbox = document.getElementById("myCheckbox3");
+        if (checkbox.checked) {
+                document.querySelector("#slider1url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider2url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider3url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider4url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider5url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider6url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider7url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider8url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider9url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider10url3input").style.setProperty('--sliderOpacity3', 1);
+            document.querySelector("#slider11url3input").style.setProperty('--sliderOpacity3', 1);
+        } else {
+                document.querySelector("#slider1url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider2url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider3url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider4url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider5url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider6url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider7url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider8url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider9url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider10url3input").style.setProperty('--sliderOpacity3', 0);
+            document.querySelector("#slider11url3input").style.setProperty('--sliderOpacity3', 0);
+        }
+      }
+      
+      function toggleOpacity4() {
+        var checkbox = document.getElementById("myCheckbox4");
+        if (checkbox.checked) {
+                document.querySelector("#slider1url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider2url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider3url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider4url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider5url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider6url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider7url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider8url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider9url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider10url4input").style.setProperty('--sliderOpacity4', 1);
+            document.querySelector("#slider11url4input").style.setProperty('--sliderOpacity4', 1);
+        } else {
+                document.querySelector("#slider1url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider2url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider3url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider4url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider5url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider6url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider7url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider8url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider9url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider10url4input").style.setProperty('--sliderOpacity4', 0);
+            document.querySelector("#slider11url4input").style.setProperty('--sliderOpacity4', 0);
+        }
+      }
+
+      function toggleOpacity5() {
+        var checkbox = document.getElementById("myCheckbox5");
+        if (checkbox.checked) {
+                document.querySelector("#slider1url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider2url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider3url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider4url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider5url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider6url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider7url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider8url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider9url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider10url5input").style.setProperty('--sliderOpacity5', 1);
+            document.querySelector("#slider11url5input").style.setProperty('--sliderOpacity5', 1);
+        } else {
+                document.querySelector("#slider1url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider2url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider3url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider4url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider5url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider6url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider7url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider8url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider9url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider10url5input").style.setProperty('--sliderOpacity5', 0);
+            document.querySelector("#slider11url5input").style.setProperty('--sliderOpacity5', 0);
+        }
+      }
+
+      function toggleOpacity6() {
+        var checkbox = document.getElementById("myCheckbox6");
+        if (checkbox.checked) {
+                document.querySelector("#slider1url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider2url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider3url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider4url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider5url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider6url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider7url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider8url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider9url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider10url6input").style.setProperty('--sliderOpacity6', 1);
+            document.querySelector("#slider11url6input").style.setProperty('--sliderOpacity6', 1);
+        } else {
+                document.querySelector("#slider1url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider2url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider3url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider4url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider5url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider6url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider7url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider8url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider9url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider10url6input").style.setProperty('--sliderOpacity6', 0);
+            document.querySelector("#slider11url6input").style.setProperty('--sliderOpacity6', 0);
+        }
+      }
+
+
+
+
+
+    
 
 
 
