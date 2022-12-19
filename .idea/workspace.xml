@@ -4,30 +4,104 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="" />
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Added code and fixed structure">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anita/anita.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anita/anita.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anita/anita.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ayat/ayat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ayat/ayat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ayat/ayat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flagg/Flagg nederland.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flagg/flagg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flagg/flagg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Ayat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/anita.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/lamek.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/marius.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/martine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/ole.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/uia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamek/lamek.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamek/lamek.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lamek/lamek.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marius/marius.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marius/marius.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marius/marius.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/martine/martine.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/martine/martine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/martine/martine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ole/ole.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ole/ole.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ole/ole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rapport/rapport.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rapport/rapport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rapport/rapport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GRUPPE-REPOSITORY.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GRUPPE-REPOSITORY.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-Sep-22_14_26_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07-Sep-22_14_26__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-Sep-22_14_26_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-Sep-22_14_26__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3flagg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvasflagg.html" beforeDir="false" afterPath="$PROJECT_DIR$/flagg/canvasflagg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cssflagg.html" beforeDir="false" afterPath="$PROJECT_DIR$/flagg/cssflagg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pflagg.html" beforeDir="false" afterPath="$PROJECT_DIR$/flagg/pflagg.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="anitaoygard" />
+        <option name="repository" value="GRUPPE-REPOSITORY" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EM1sOSRahhNbrIMukx65UcZCKc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/olepa/IdeaProjects/GRUPPE-REPOSITORY&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
@@ -41,6 +115,7 @@
       <updated>1662390844707</updated>
       <workItem from="1662398218833" duration="70000" />
       <workItem from="1662398301104" duration="305000" />
+      <workItem from="1667731786825" duration="494000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -75,7 +150,114 @@
       <option name="project" value="LOCAL" />
       <updated>1662398574142</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="La til how we roll kode">
+      <created>1667732044864</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732044864</updated>
+    </task>
+    <task id="LOCAL-00007" summary="La til how we roll kode">
+      <created>1667732280343</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732280343</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed index file from flag to how we roll">
+      <created>1667732430200</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732430200</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added flagg.html to index navigation">
+      <created>1667732758257</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732758257</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added flagg.html to index navigation">
+      <created>1667732891035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732891035</updated>
+    </task>
+    <task id="LOCAL-00011" summary="added navigation to flagg.html">
+      <created>1667732934542</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667732934542</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Formated navigation">
+      <created>1667733165985</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667733165985</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".">
+      <created>1668510021661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668510021661</updated>
+    </task>
+    <task id="LOCAL-00014" summary=".">
+      <created>1668510511830</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668510511830</updated>
+    </task>
+    <task id="LOCAL-00015" summary=".">
+      <created>1668510853761</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668510853761</updated>
+    </task>
+    <task id="LOCAL-00016" summary=".">
+      <created>1668510988162</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668510988162</updated>
+    </task>
+    <task id="LOCAL−00017" summary=".">
+      <created>1671007582917</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1671007582917</updated>
+    </task>
+    <task id="LOCAL−00018" summary=".">
+      <created>1671007801718</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1671007801718</updated>
+    </task>
+    <task id="LOCAL−00019" summary=".">
+      <created>1671016042207</created>
+      <option name="number" value="LOCAL−00019" />
+      <option name="presentableId" value="LOCAL−00019" />
+      <updated>1671016042207</updated>
+    </task>
+    <task id="LOCAL−00020" summary=".">
+      <created>1671016097808</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1671016097808</updated>
+    </task>
+    <task id="LOCAL−00021" summary=".Bilde">
+      <created>1671016400019</created>
+      <option name="number" value="LOCAL−00021" />
+      <option name="presentableId" value="LOCAL−00021" />
+      <updated>1671016400019</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +291,13 @@
     <MESSAGE value="Skrevet og formattert tekst til oppgave 4B" />
     <MESSAGE value="Endret størrelse på headers." />
     <MESSAGE value="La til flag kode fra undervisning." />
-    <option name="LAST_COMMIT_MESSAGE" value="La til flag kode fra undervisning." />
+    <MESSAGE value="La til how we roll kode" />
+    <MESSAGE value="Changed index file from flag to how we roll" />
+    <MESSAGE value="added flagg.html to index navigation" />
+    <MESSAGE value="added navigation to flagg.html" />
+    <MESSAGE value="Formated navigation" />
+    <MESSAGE value="." />
+    <MESSAGE value=".Bilde" />
+    <option name="LAST_COMMIT_MESSAGE" value=".Bilde" />
   </component>
 </project>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ole.css">
+</head>
+<body>
+    <div class="topnav">
+        <a href="../index.html">Forms</a>
+        <a href="../rapport/rapport.html">Rapport</a>
+        <a class="active" href="ole.html">Ole</a>
+        <a href="../martine/martine.html">Martine</a>
+        <a href="../anita/anita.html">Anita</a>
+        <a href="../marius/marius.html">Marius</a>
+        <a href="../lamek/lamek.html">Lamek</a>
+        <a href="../ayat/ayat.html">Ayat</a>
+        <a href="../flagg/flagg.html">Flaggoppgaven</a>
+      </div>
+
+    <div class="bilde" >
+        <img src="../image/ole.jpg" style="width: 400px; height: 400px; display: block; margin: auto; border: 10px solid gray;">
+
+        </div>
+
+
+    <p style="text-align: center;">Ole Aleksander Paulsen</p>
+        <p style="text-align: center;">Alder: 25 <br>
+            Studie: IT og informasjonssystemer <br>
+        Universitet: Universitetet i Agder <br>
+        Nasjonalitet: Norsk <br>
+
+        </p>
+
+        <canvas id="flag" width="300" height="200"></canvas>
+
+        <br>
+
+        <div class="container" >
+            <div class="url1" align="center">
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" class="slider1" id="slider1url1input" />
+                <label class="label1" id="slider11label" for="slider11input"></label>
+                <label class="labelsliderleft" for="nav">Early bird</label>
+                <label class="labelsliderright" for="nav">Night owl</label>
+          
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50" class="slider1" id="slider2url1input" />
+                <label class="labelsliderleft" for="slider2url1input">Work on it together</label>
+                <label class="labelsliderright" for="slider2url1input">Go off alone and think</label>
+          
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50" class="slider1" id="slider3url1input" />
+                <label class="labelsliderleft" for="slider3url1input">Tell me the backstory</label>
+                <label class="labelsliderright" for="slider3url1input">Cut to the chase</label>
+          
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50"  class="slider1" id="slider4url1input" />
+                <label class="labelsliderleft" for="slider4url1input">Need to talk it out</label>
+                <label class="labelsliderright" for="slider4url1input">Need to move on</label>
+          
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50" class="slider1" id="slider5url1input" />
+                <label class="labelsliderleft" for="slider5url1input">Verbal processor</label>
+                <label class="labelsliderright" for="slider5url1input">Mental processor</label>
+          
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" class="slider1" id="slider6url1input" />
+                <label class="labelsliderleft" for="slider6url1input">Schedule a time to chat</label>
+                <label class="labelsliderright" for="slider6url1input">Interrupt me when you need me</label>
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50" class="slider1" id="slider7url1input" />
+                <label class="labelsliderleft" for="slider7url1input">Video chat</label>
+                <label class="labelsliderright" for="slider7url1input">Slack/text</label>
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50" class="slider1" id="slider8url1input" />
+                <label class="labelsliderleft" for="slider8url1input">09-17 Hours</label>
+                <label class="labelsliderright" for="slider8url1input">I have no set schedule</label>
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50"  class="slider1" id="slider9url1input" />
+                <label class="labelsliderleft" for="slider9url1input">Physical attendance</label>
+                <label class="labelsliderright" for="slider9url1input">Discord chat</label>
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50" class="slider1" id="slider10url1input" />
+                <label class="labelsliderleft" for="slider10url1input">Leader</label>
+                <label class="labelsliderright" for="slider10url1input">Follower</label>
+              </div>
+          
+              <div class="slider-wrapper1">
+                <input type="range" min="0" max="1000" value="50" class="slider1" id="slider11url1input" />
+                <label class="labelsliderleft" for="slider11url1input">Always on time</label>
+                <label class="labelsliderright" for="slider11url1input">Never on time</label>
+              </div>
+          
+            </div>
+            
+<script>
+    var canvas = document.getElementById('flag');
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle='#00205B';
+    ctx.fillRect(0,0,300,200);
+    ctx.fillStyle='#FFFFFF';
+    ctx.fillRect(0,0,85,90);
+    ctx.fillRect(0,110,85,90);
+    ctx.fillRect(110,0,210,90);
+    ctx.fillRect(110,110,210,90);
+    ctx.fillStyle='#BA0C2F';
+    ctx.fillRect(0,0,75,80);
+    ctx.fillRect(0,120,75,80);
+    ctx.fillRect(120,0,200,80);
+    ctx.fillRect(120,120,200,80);
+</script>
+    <script src="ole.js"></script>
+</body>
+</html>
