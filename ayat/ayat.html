@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Ayats profil</title>
+  <!-- dette er tittel som kommer frem i nettleser-->
+
+
+  <meta charset="UTF-8">
+  <!-- Dette gjør slik at bokstaver som æøå syntes. lurere og mer tidsparende
+  å bruke dette kontra slik jeg har gjort lenger ned, men det fungerer også-->
+
+  <link rel="stylesheet" href="ayat.css">
+
+  <style>
+    body {
+      background-color: lightpink;
+    }
+  </style>
+  <!-- dette er det som gjør at bakgrunnsfargen på skjermen er lys rosa-->
+
+</head>
+<body>
+
+<div class="topnav">
+  <a href="../index.html">Forms</a>
+  <a href="../rapport/rapport.html">Rapport</a>
+  <a href="../ole/ole.html">Ole</a>
+  <a href="../martine/martine.html">Martine</a>
+  <a href="../anita/anita.html">Anita</a>
+  <a href="../marius/marius.html">Marius</a>
+  <a href="../lamek/lamek.html">Lamek</a>
+  <a class="active" href="ayat.html">Ayat</a>
+  <a href="../flagg/flagg.html">Flaggoppgaven</a>
+</div>
+<!-- dette er navigasjonsbaren-->
+
+<br> <br> <br> <br>
+<!-- dette er breaks, altså det som setter "avsnitt"-->
+
+<div style="text-align:center;">
+  <img src="../image/Ayat.jpg" alt="Ayat" style="border-style: double; border-width: 15px; border-color: #b33b72;">
+  <h1 style="color: #b33b72; font-family: 'Courier New', Courier, monospace;"> Ayat </h1> </div>
+<!-- dette er koden som henter opp bildet, og setter det i sentrum. her har jeg også lagt inn ramme,
+  størrelse og farge på denne. under har jeg laget en header med navnet mitt som en overskrift og valgt
+  farge samt hvilken font jeg ønsket på skriften-->
+
+
+<hr style="height: 3px; width: 50%; background-color: #b33b72; border: none;">
+<!-- dette er en "skillelinje" -->
+
+<br>
+
+
+<div style= "float: right; padding-right: 400px;">
+  <p style="color: #b33b72; font-size: 20px; font-family: 'Courier New', Courier, monospace;">
+    <u><b>Alder:</u></b> 20 <br>
+    <u><b>Studie:</u></b> IT og informasjonssystemer<br>
+    <u><b>Studiested:</u></b> Universitetet i Agder<br>
+    <u><b>Nasjonalitet:</u></b> Norsk <br>
+  </p>
+</div>
+<!-- dette indikrer at teksten ligger til høyre samt understrekning, bold, font osv.-->
+
+
+<div style="float: left; padding-left: 400px;">
+  <canvas id="myCanvas" height="160px" width="200px" style="background-color: white ; border: 1px solid black; "></canvas>
+</div>
+<!-- dette linker til flagg koden og viser til at den ligger på venstre side -->
+
+
+<script>
+  let canvas = document.querySelector('#myCanvas');
+  let c = canvas.getContext('2d');
+
+  c.fillStyle = '#BA0C2F';
+  c.fillRect(0,0,60,60);
+  c.fillStyle = '#00205B';
+  c.fillRect(70,0,20,170);
+  c.fillStyle = '#00205B';
+  c.fillRect(0,70,200,20);
+  c.fillStyle = '#BA0C2F';
+  c.fillRect(0,100,60,60);
+  c.fillStyle = '#BA0C2F';
+  c.fillRect(100,0,100,60);
+  c.fillStyle = '#BA0C2F';
+  c.fillRect(100,100,100,60);
+</script>
+<!-- dette er koden til det norske flagget-->
+
+
+<br> <br>
+
+<div style="margin-top: 20px;">
+  <div class="container">
+
+    <div style="float: right; padding-right: 195px;">
+      <p style="color: #b33b72; font-family: 'Courier New', Courier, monospace; font-size: 27px;">
+        <b><u>How I Roll</u></b>
+      </p></div>
+
+    <div class="url2" align="center">
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" class="slider2" id="slider1url6input" />
+        <label class="labelsliderleft" for="slider1url6input">Early bird</label>
+        <label class="labelsliderright" for="slider1url6input">Night owl</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50" class="slider2" id="slider2url6input" />
+        <label class="labelsliderleft" for="slider2url6input">Work on it together</label>
+        <label class="labelsliderright" for="slider2url6input">Go off alone and think</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50" class="slider2" id="slider3url6input" />
+        <label class="labelsliderleft" for="slider3url6input">Tell me the backstory</label>
+        <label class="labelsliderright" for="slider3url6input">Cut to the chase</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50"  class="slider2" id="slider4url6input" />
+        <label class="labelsliderleft" for="slider4url6input">Need to talk it out</label>
+        <label class="labelsliderright" for="slider4url6input">Need to move on</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50" class="slider2" id="slider5url6input" />
+        <label class="labelsliderleft" for="slider5url6input">Verbal processor</label>
+        <label class="labelsliderright" for="slider5url6input">Mental processor</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" class="slider2" id="slider6url6input" />
+        <label class="labelsliderleft" for="slider6url6input">Schedule a time to chat</label>
+        <label class="labelsliderright" for="slider6url6input">Interrupt me when you need me</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50" class="slider2" id="slider7url6input" />
+        <label class="labelsliderleft" for="slider7url6input">Video chat</label>
+        <label class="labelsliderright" for="slider7url6input">Slack/text</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50" class="slider2" id="slider8url6input" />
+        <label class="labelsliderleft" for="slider8url6input">09-17 Hours</label>
+        <label class="labelsliderright" for="slider8url6input">I have no set schedule</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50"  class="slider2" id="slider9url6input" />
+        <label class="labelsliderleft" for="slider9url6input">Physical attendance</label>
+        <label class="labelsliderright" for="slider9url6input">Discord chat</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50" class="slider2" id="slider10url6input" />
+        <label class="labelsliderleft" for="slider10url6input">Leader</label>
+        <label class="labelsliderright" for="slider10url6input">Follower</label>
+      </div>
+
+      <div class="slider-wrapper1">
+        <input type="range" min="0" max="1000" value="50" class="slider2" id="slider11url6input" />
+        <label class="labelsliderleft" for="slider11url6input">Always on time</label>
+        <label class="labelsliderright" for="slider11url6400input">Never on time</label>
+      </div>
+    </div>
+  </div>
+  <!-- dette er koden til mine egne prikker på how we roll, hvor man ser at jeg er burker
+  nummer 2 og har lagt inn dette på de ulike sliderene slik at det kobles opp mot JavaScript
+arket-->
+
+
+  <br> <br>
+
+  <div style="text-align: center;">
+    <p style="color: #b33b72; font-size: 20px; font-family: 'Courier New', Courier, monospace;">
+      Ut i fra denne tabellen ser man at jeg har noen positive og negative sider <br>
+      n&aring;r det kommer til gruppe arbeid. F&oslash;rst og fremst ser man at jeg liker &aring; v&aelig;re <br>
+      oppe sent. Det som ligger i dette er at jeg, n&aring;r det kommer til skolearbeid, er mest <br>
+      produktiv p&aring;  kvelden. Likevel ser man at jeg ikke har noe problem med &aring; m&oslash;te <br>
+      til gruppem&oslash;ter, som gjerne er satt tidlig p&aring; dagen. Videre ser man at jeg liker <br>
+      &aring; samarbeide med andre. Dette kan tenkes er b&aring;de positivt og negativt da jeg fint kan <br>
+      arbeide sammen med andre, likevel som jeg til tider kan v&aelig;re mindre selvstendig <br>
+      i arbeidet. <br> <br>
+
+      Jeg er en person som liker &aring;  g&aring; rett p&aring; sak og liker &aring; arbeide litt som det <br>
+      passer meg. Likevel ser man at jeg liker &aring; m&oslash;te gruppen fysisk, noe som gj&oslash;r at <br>
+      jeg tildels m&aring; arbeide etter rammene som gruppen setter. N&aring;r jeg f&aring;r en oppgave <br>
+      liker jeg &aring; snakke om den for &aring; forst&aring; den bedre, for s&aring; og prossesere det <br>
+      mentalt etterp&aring;. Dermed er jeg ogs&aring; noe n&oslash;ytral til &aring; m&aring;tte g&aring; i dybden p&aring; <br>
+      oppgaver, eller om man bare skal sette i gang, da en del av den mentale <br>
+      prosessen min er &aring; begynne &aring; gjennomf&oslash;re og sette ord p&aring; egne tanker og <br>
+      tolkninger. <br> <br>
+
+      Jeg liker bedre &aring; avtale gruppem&oslash;ter eller stille sp&oslash;rsm&aring;l til gruppen p&aring; <br>
+      messenger, kontra &aring; videochatte. &Aring;rsaken til dette er at det blir enklere <br>
+      &aring;  f&aring; konkretisert sp&oslash;rsm&aring;l og svar, og den som f&oslash;ler den har kunnskapen til <br>
+      &aring; svare gj&oslash;r det. Til slutt ser man at jeg er en leder n&aring;r det kommer til <br>
+      dette gruppe arbeidet. I utganspunktet er ikke dette en rolle jeg liker &aring; ta,<br>
+      men jeg tar gjerne styring om det trengs. Det vil si at jeg ser p&aring; gruppe- <br>
+      medlemmene og tilpasser meg deretter.
+
+
+      <script src="ayat.js"></script>
+
+      <br> <br>
+
+</body>
+</html>
