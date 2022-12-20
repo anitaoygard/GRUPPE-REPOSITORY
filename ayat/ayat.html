@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
+    <title>Ayats profil</title>
+<!-- tittel som kommer frem i nettleser-->	
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="ayat.css">
+
+<style>
+    body {
+      background-color: yellow;
+    }
+  </style>
+  <!-- gjør bakgrunnsfargen på skjermen til gul-->
+
 </head>
 <body>
 
-<!--Navigasjonsbar. Hentet fra W3School-->
+
 <div class="topnav">
     <a href="../index.html">Forms</a>
     <a href="../rapport/rapport.html">Rapport</a>
@@ -19,40 +31,67 @@
     <a class="active" href="ayat/ayat.html">Ayat</a>
     <a href="../flagg/flagg.html">Flaggoppgaven</a>
 </div>
+<!--Navigasjonsbar-->
+
+<br> <br> <br> <br>
+<!-- setter avsnitt-->
 
 
-
-</div>
-
-<!--Bilde-->
 <div style="text-align:center;">
-    <img src="../image/Ayat.jpg">
+  <img src="../image/Ayat.jpg" alt="ayat" style="border-style: double; border-width: 15px; border-color: #8D33FF;">
+  <h1 style="color: #8D33FF; font-family: 'Courier New', Courier, monospace;"> Ayat </h1> </div>
+<!-- dette er koden som henter opp bildet, og setter det i sentrum. her har jeg også lagt inn ramme,
+  størrelse og farge på denne.-->
+
+
+<hr style="height: 3px; width: 50%; background-color: #8D33FF; border: none;">
+<!-- dette er en "skillelinje" -->
+
+<br>
+
+
+<div style= "float: right; padding-right: 400px;">
+  <p style="color: #8D33FF; font-size: 20px; font-family: 'Courier New', Courier, monospace;">
+    <u><b>Alder:</u></b> 20 <br>
+    <u><b>Studie:</u></b> IT og informasjonssystemer<br>
+    <u><b>Studiested:</u></b> Universitetet i Agder<br>
+    <u><b>Nasjonalitet:</u></b> Norsk <br>
+  </p>
 </div>
 
 
-<!--Overskrift-->
-<div align="center" class="overskrift">
-    <p>Ayat</p>
+
+<div style="float: left; padding-left: 400px;">
+  <canvas id="myCanvas" height="160px" width="200px" style="background-color: white ; border: 1px solid black; "></canvas>
 </div>
+<!-- flagg koden -->
 
 
+<script>
+  let canvas = document.querySelector('#myCanvas');
+  let c = canvas.getContext('2d');
+
+  c.fillStyle = '#BA0C2F';
+  c.fillRect(0,0,60,60);
+  c.fillStyle = '#00205B';
+  c.fillRect(70,0,20,170);
+  c.fillStyle = '#00205B';
+  c.fillRect(0,70,200,20);
+  c.fillStyle = '#BA0C2F';
+  c.fillRect(0,100,60,60);
+  c.fillStyle = '#BA0C2F';
+  c.fillRect(100,0,100,60);
+  c.fillStyle = '#BA0C2F';
+  c.fillRect(100,100,100,60);
+</script>
+<!-- dette er koden til det norske flagget-->
 
 
-<!--Flagg. Hentet fra Codepen.io-->
-<div style="float: left; padding-left: 470px">
-    <canvas id="myCanvas" hight="160px" width="200px" style="background-color: white; border: 1px solid black;"></canvas>
-</div>
+<br> <br>
 
-<!--Informasjon om meg-->
-<div style="float: right; padding-right: 470px; color:#c9bf09">
-    <p>Alder: 20</p>
-    <p>Studie: IT og informasjonssystem</p>
-    <p>Studiested: Universitetet i Agder</p>
-    <p>Narsjonalitet: Norsk</p>
-</div>
 
 <!--Mellomrom-->
-<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 
 <!--Ayat sine verdier-->
