@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="ole.css">
 </head>
 <body>
+  <!--Navigasjonsbar, refererer til alle de ulike sidene. class="active" viser hvilken side du er på-->
     <div class="topnav">
         <a href="../index.html">Forms</a>
         <a href="../rapport/rapport.html">Rapport</a>
@@ -17,13 +18,13 @@
         <a href="../ayat/ayat.html">Ayat</a>
         <a href="../flagg/flagg.html">Flaggoppgaven</a>
       </div>
-
+<!--Legger til bilde med inline CSS-->
     <div class="bilde" >
         <img src="../image/ole.jpg" style="width: 400px; height: 400px; display: block; margin: auto; border: 10px solid gray;">
 
         </div>
 
-
+<!--Legger til tekst-->
     <p style="text-align: center;">Ole Aleksander Paulsen</p>
         <p style="text-align: center;">Alder: 25 <br>
             Studie: IT og informasjonssystemer <br>
@@ -31,13 +32,15 @@
         Nasjonalitet: Norsk <br>
 
         </p>
-
+<!--Legger til canvas elementet-->
         <canvas id="flag" width="300" height="200"></canvas>
 
         <br>
-
+<!--Lager en div container som går over alle sliders som tegnes-->
         <div class="container" >
-            <div class="url1" align="center">
+          <!--Lager en div class="url1", og tegner slider med class="slider1" og id="slider1-11url1input"-->
+  <!--Lager labels med teksten som skal tilhøre slideren. Disse får class="labelsliderleft" om de skal være til venstre for slider, og class="labelsliderright" om de skal være til høyre for slider. -->  
+          <div class="url1" align="center">
           
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" class="slider1" id="slider1url1input" />
@@ -46,65 +49,65 @@
                 <label class="labelsliderright" for="nav">Night owl</label>
           
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider2url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50" class="slider1" id="slider2url1input" />
                 <label class="labelsliderleft" for="slider2url1input">Work on it together</label>
                 <label class="labelsliderright" for="slider2url1input">Go off alone and think</label>
           
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider3url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50" class="slider1" id="slider3url1input" />
                 <label class="labelsliderleft" for="slider3url1input">Tell me the backstory</label>
                 <label class="labelsliderright" for="slider3url1input">Cut to the chase</label>
           
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider4url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50"  class="slider1" id="slider4url1input" />
                 <label class="labelsliderleft" for="slider4url1input">Need to talk it out</label>
                 <label class="labelsliderright" for="slider4url1input">Need to move on</label>
           
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider5url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50" class="slider1" id="slider5url1input" />
                 <label class="labelsliderleft" for="slider5url1input">Verbal processor</label>
                 <label class="labelsliderright" for="slider5url1input">Mental processor</label>
           
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider6url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" class="slider1" id="slider6url1input" />
                 <label class="labelsliderleft" for="slider6url1input">Schedule a time to chat</label>
                 <label class="labelsliderright" for="slider6url1input">Interrupt me when you need me</label>
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider7url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50" class="slider1" id="slider7url1input" />
                 <label class="labelsliderleft" for="slider7url1input">Video chat</label>
                 <label class="labelsliderright" for="slider7url1input">Slack/text</label>
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider8url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50" class="slider1" id="slider8url1input" />
                 <label class="labelsliderleft" for="slider8url1input">09-17 Hours</label>
                 <label class="labelsliderright" for="slider8url1input">I have no set schedule</label>
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider9url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50"  class="slider1" id="slider9url1input" />
                 <label class="labelsliderleft" for="slider9url1input">Physical attendance</label>
                 <label class="labelsliderright" for="slider9url1input">Discord chat</label>
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider10url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50" class="slider1" id="slider10url1input" />
                 <label class="labelsliderleft" for="slider10url1input">Leader</label>
                 <label class="labelsliderright" for="slider10url1input">Follower</label>
               </div>
-          
+          <!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider11url1input"-->
               <div class="slider-wrapper1">
                 <input type="range" min="0" max="1000" value="50" class="slider1" id="slider11url1input" />
                 <label class="labelsliderleft" for="slider11url1input">Always on time</label>
@@ -112,7 +115,17 @@
               </div>
           
             </div>
-            
+            <br>
+            <!--Legger til tekst-->
+            <p style="text-align: center;">Ut i fra grafikken kan man se at jeg er en nattugle.<br><br> Når jeg står ovenfor et problem, foretrekker jeg å tenke over problemet på egenhånd. <br><br> 
+            Aller helst ønsker jeg at folk er direkte med meg. <br><br> Oppstår det en konflikt vil jeg løse den før jeg går videre. <br><br> Jeg løser problemstillinger 
+          best i hodet. <br><br> Jeg har ingen preferanse når det kommer til planlegging. <br><br> Om diskusjoner skal forekomme over nett, foretrekker jeg videokonferanser over tekst. <br><br> 
+        Jeg foretrekker fjernarbeid, men ser verdien av fysisk oppmøte i blandt. <br><br> Jeg liker å lede prosjekter, men har ingenting imot å være en følger, 
+      om noen er bedre kvalifisert.<br><br> Liker å tro at jeg punktlig, men som følge av at jeg er en nattugle, kan jeg ha problemer med å møte i tide om morgenen.  </p>
+           
+    
+       
+  <!--Legger til script for canvas elementet-->          
 <script>
     var canvas = document.getElementById('flag');
     var ctx = canvas.getContext('2d');
@@ -129,6 +142,7 @@
     ctx.fillRect(120,0,200,80);
     ctx.fillRect(120,120,200,80);
 </script>
+<!--Legger til henvisning til JavaScript filen som skal brukes i HTML filen-->
     <script src="ole.js"></script>
 </body>
 </html>

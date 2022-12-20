@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="rapport.css">
 </head>
 <body>
-
+<!--Navigasjonsbar, refererer til alle de ulike sidene. class="active" viser hvilken side du er på-->
 <div class="topnav">
         <a href="../index.html">Forms</a>
         <a class="active" href="rapport.html">Rapport</a>
@@ -18,7 +18,8 @@
         <a href="../ayat/ayat.html">Ayat</a>
         <a href="../flagg/flagg.html">Flaggoppgaven</a>
         
-  
+ <!--Lager tomme labels som skal bli manipulert av javascript funksjon. Gir de unik class og ID--> 
+ <!--Lager checkboxes med unik ID, som kjører funksjonen "toggleOpacityX()" når statusen til checkboxen endres--> 
 </div>
 <div class="navn">
  <label id="navnurl1" class="navnurl1" ></label>
@@ -43,10 +44,11 @@
 
 
 <br><br><br><br><br>
-
+<!--Lager en div container som går over alle sliders som tegnes-->
 <div class="container" >
+  <!--Lager en div class="urlX", og tegner slider med class="sliderX" og id="slider1-11urlXinput"-->
+  <!--Lager labels med teksten som skal tilhøre slideren. Disse får class="labelsliderleft" om de skal være til venstre for slider, og class="labelsliderright" om de skal være til høyre for slider. -->
   <div class="url1" align="center">
-
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" class="slider1" id="slider1url1input" />
       <label class="label1" id="slider11label" for="slider11input"></label>
@@ -54,65 +56,65 @@
       <label class="labelsliderright" for="nav">Night owl</label>
 
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider2url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50" class="slider1" id="slider2url1input" />
       <label class="labelsliderleft" for="slider2url1input">Work on it together</label>
       <label class="labelsliderright" for="slider2url1input">Go off alone and think</label>
 
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider3url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50" class="slider1" id="slider3url1input" />
       <label class="labelsliderleft" for="slider3url1input">Tell me the backstory</label>
       <label class="labelsliderright" for="slider3url1input">Cut to the chase</label>
 
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider4url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50"  class="slider1" id="slider4url1input" />
       <label class="labelsliderleft" for="slider4url1input">Need to talk it out</label>
       <label class="labelsliderright" for="slider4url1input">Need to move on</label>
 
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider5url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50" class="slider1" id="slider5url1input" />
       <label class="labelsliderleft" for="slider5url1input">Verbal processor</label>
       <label class="labelsliderright" for="slider5url1input">Mental processor</label>
 
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider6url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" class="slider1" id="slider6url1input" />
       <label class="labelsliderleft" for="slider6url1input">Schedule a time to chat</label>
       <label class="labelsliderright" for="slider6url1input">Interrupt me when you need me</label>
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider7url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50" class="slider1" id="slider7url1input" />
       <label class="labelsliderleft" for="slider7url1input">Video chat</label>
       <label class="labelsliderright" for="slider7url1input">Slack/text</label>
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider8url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50" class="slider1" id="slider8url1input" />
       <label class="labelsliderleft" for="slider8url1input">09-17 Hours</label>
       <label class="labelsliderright" for="slider8url1input">I have no set schedule</label>
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider9url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50"  class="slider1" id="slider9url1input" />
       <label class="labelsliderleft" for="slider9url1input">Physical attendance</label>
       <label class="labelsliderright" for="slider9url1input">Discord chat</label>
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider10url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50" class="slider1" id="slider10url1input" />
       <label class="labelsliderleft" for="slider10url1input">Leader</label>
       <label class="labelsliderright" for="slider10url1input">Follower</label>
     </div>
-
+<!--Gjentar samme prosess som ovenfor, men for neste slider med id="slider11url1input"-->
     <div class="slider-wrapper1">
       <input type="range" min="0" max="1000" value="50" class="slider1" id="slider11url1input" />
       <label class="labelsliderleft" for="slider11url1input">Always on time</label>
@@ -120,7 +122,7 @@
     </div>
 
   </div>
-
+<!--Gjenter samme prosess for class="url2" som class="url1". Tegner 11 sliders med class="slider2" og unik id="slider1-11url2input" Tar ikke med labels denne gang-->
   <div class="url2" align="center">
 
     <div class="slider-wrapper1">
@@ -168,7 +170,7 @@
     </div>
 
   </div>
-
+<!--Gjenter samme prosess for class="url3" som class="url1-2". Tegner 11 sliders med class="slider3" og unik id="slider1-11url3input" Tar ikke med labels denne gang-->
   <div class="url3" align="center">
 
     <div class="slider-wrapper1">
@@ -216,7 +218,7 @@
     </div>
 
   </div>
-
+<!--Gjenter samme prosess for class="url4" som class="url1-3". Tegner 11 sliders med class="slider4" og unik id="slider1-11url4input" Tar ikke med labels denne gang-->
   <div class="url4" align="center">
 
     <div class="slider-wrapper1">
@@ -264,6 +266,7 @@
     </div>
 
   </div>
+ <!--Gjenter samme prosess for class="url5" som class="url1-4". Tegner 11 sliders med class="slider5" og unik id="slider1-11url5input" Tar ikke med labels denne gang-->
   <div class="url5" align="center">
 
     <div class="slider-wrapper1">
@@ -311,7 +314,7 @@
     </div>
 
   </div>
-
+<!--Gjenter samme prosess for class="url6" som class="url1-5". Tegner 11 sliders med class="slider5" og unik id="slider1-11url5input" Tar ikke med labels denne gang-->
   <div class="url6" align="center">
 
     <div class="slider-wrapper1">
@@ -361,7 +364,7 @@
 </div>
 
 
-
+<!--Linker til JavaScript filen som skal brukes i HTML dokumentet-->
 <script src="rapport.js"></script>
 </body>
 </html>

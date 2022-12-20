@@ -1,3 +1,5 @@
+/*body, topnav, topnav a, topnav a:hover,
+topnav a.active er funnet på w3school*/
 body {
     margin: 0px;
     font-family: Roboto, sans-serif;
@@ -32,7 +34,8 @@ body {
         color: white;
         }
 
-
+/*body, topnav, topnav a, topnav a:hover,
+topnav a.active er funnet på w3school*/
 .bilde {
     font-size: 20px;
     border-width: 2px;
@@ -40,13 +43,14 @@ body {
 
     
 }
-
+/*body, topnav, topnav a, topnav a:hover,
+topnav a.active er funnet på w3school*/
 canvas#flag {
     display: block;
     margin: auto;
 }
 
-
+/*Endrer størrelse på container som inneholder alle sliders. Endrer også margin*/
 .container{ 
     width: 1000px;
     margin-left: 480px;
@@ -54,20 +58,18 @@ canvas#flag {
     pointer-events: none;
    
 }
-
+/*Endrer utseende på sliders. Setter width: 100%; av container slik at labels ikke skal kunne påvirke slider posisjon*/
 .slider1 {
     width: 100%;
     height: 15px;
     border-radius: 5px;
     -webkit-appearance: none;
-}
-.slider1 {
     --sliderSize: 15px;
     --sliderColor1: #111111;
     background: rgba(200, 200, 200, 0.4);
-
 }
 
+/*Endrer utseende til slider-thumb, og bruker CSS variabelen --sliderColor1 til å sette fargen på slider-thumb. Denne variabelen blir definert av JavaScript funksjonen*/
 .slider1::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -75,22 +77,19 @@ canvas#flag {
     height: var(--sliderSize);
     border-radius: 50%;
     background: var(--sliderColor1);
-    opacity: 1;
-}
-
-.url1 {
-    grid-column: 1;
-    grid-row: 1;
+  
 }
 
 
+
+/*Flytter på alle labels som skal være til venstre for sliders med margin-left og transform.*/
 .labelsliderleft {
     float: left;
     margin-left: -180px;
     transform: translate(-20px, -20px);
 
 }
-
+/*Flytter på alle labels som skal være til høyre for sliders med margin-left og transform.*/
 .labelsliderright {
     float: right;
     margin-right: -230px;
