@@ -1,8 +1,24 @@
 body {
     margin: 0px;
     font-family: Lato, Helvetica, sans-serif;
-    color: black;
+    color: #94940b;
+    background-color: rgb(243, 243, 216);
+
 }
+
+img {
+    height: 400px;
+    border-width: 15px;
+    border-color: #f2fa0a;
+}
+
+.overskrift {
+    color: rgb(172, 172, 7);
+    text-align: center;
+    font-size: 40px;
+    height: 60px;
+}
+
 
 .topnav {
     overflow: hidden;
@@ -18,7 +34,6 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-
 }
 
 .topnav a:hover {
@@ -29,68 +44,62 @@ body {
 .topnav a.active {
     background-color: red;
     color: white;
-}
+    }
 
 .container{
-    width: 1000px;
-    margin-top: 200px;
+width: 1000px;
+margin-left: 210px;
+display: grid;
 
 }
 
-.slider2{
-    width: 100%;
-    height: 15px;
-    border-radius: 5px;
-    -webkit-appearance: none;
+.slider3 {
+width: 100%;
+height: 15px;
+border-radius: 5px;
+-webkit-appearance: none;
 }
 
-
-.slider2 {
-    --sliderSize: 15px;
-    --sliderColor2: #5a4646;
-    background: rgba(250, 51, 153, 0.2);
+.slider3 {
+--sliderSize: 15px;
+--sliderColor3: #111111;
+background:rgba(241, 241, 61, 0.2);
 }
 
 .slider-wrapper1 {
+    align: center;
     width: 500px;
-    margin-left: 470px;
     pointer-events: none;
 }
-.slider2::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: var(--sliderSize);
-    height: var(--sliderSize);
-    border-radius: 50%;
-    background: var(--sliderColor2);
-    opacity: 1;
+
+
+
+.slider3::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: var(--sliderSize);
+height: var(--sliderSize);
+border-radius: 50%;
+background: var(--sliderColor3);
+opacity: 1;
 }
 
 
-.url2{
-    width: 400px;
-    grid-column: 1;
-    grid-row: 1;
+.url3{
+grid-column: 1;
+grid-row: 1;
 }
 
 
 .labelsliderleft {
-    float: left;
-    margin-left: -180px;
-    transform: translate(-20px, -20px);
-    color: #b33b72;
-    font-weight: bold;
-    font-size: 13px;
-    font-family: 'Courier New', Courier, monospace;
+float: left;
+margin-left: -180px;
+transform: translate(-20px, -20px);
 
 }
 
 .labelsliderright {
-    float: right;
-    margin-right: -230px;
-    transform: translate(20px, -20px);
-    color: #b33b72;
-    font-weight: bold;
-    font-size: 13px;
-    font-family: 'Courier New', Courier, monospace;
+float: right;
+margin-right: -230px;
+transform: translate(20px, -20px);
 }
