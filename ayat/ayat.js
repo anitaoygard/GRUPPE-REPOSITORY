@@ -1,4 +1,4 @@
-var url6 = 'https://bacit.info/hwr/20221115105925-a9a7509ca97e6dbc3b230c7a9345223c.json'
+var url6 = 'https://bacit.info/hwr/20221115111205-31b5094714a420e0bb6ff86469b0817d.json'
 
 fetch(url6)
     .then(response => response.json())
