@@ -1,4 +1,11 @@
+//Definerer variablene urlX med 'https://bacit.info/hwr/+timestamp+trxid.json'. Timestamp og trxid ble funnet i nettleser konsoll.
 var url1 = 'https://bacit.info/hwr/20221114123929-4309f946bae8c7dc2999249c0d37a01f.json'
+
+//Bruker fetch med variabel url1 som input. Bruker document.querySelector().value for inputte data hentet fra ekstern server i "slider1url1input".
+//Bruker document.querySelector().innerHTML for å innputte data hentet fra ekstern server i "navnurl1".
+//Bruker document.querySelector().style.setProperty() for å inputte data hentet fra ekstern server i CSS variabelen '--sliderColor1'
+//Bruker document,querySelector().style.setProperty() for å inputte data hentet fra ekstern server i CSS variabelen '--labelColor1'
+//Inspirasjon til kode funnet på https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
 fetch(url1)
     .then(response => response.json())
     .then(data => { document.querySelector("#slider1url1input").value = data.Slider1;

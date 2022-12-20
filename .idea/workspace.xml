@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="Added code comments" />
+    <list default="true" id="04fbbe4e-cf2b-43ec-b48a-31c47f1add88" name="Changes" comment="renamed js and css file for the forms page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ole/ole.css" beforeDir="false" afterPath="$PROJECT_DIR$/ole/ole.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ole/ole.html" beforeDir="false" afterPath="$PROJECT_DIR$/ole/ole.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ole/ole.js" beforeDir="false" afterPath="$PROJECT_DIR$/ole/ole.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +74,7 @@
       <workItem from="1662398218833" duration="70000" />
       <workItem from="1662398301104" duration="305000" />
       <workItem from="1667731786825" duration="494000" />
-      <workItem from="1671529811069" duration="1270000" />
+      <workItem from="1671529811069" duration="3108000" />
     </task>
     <task id="LOCAL−00001" summary="La til navn og lenke til repository">
       <created>1662391721471</created>
@@ -225,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671536127909</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Moved FORM button">
+      <created>1671536377601</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1671536377601</updated>
+    </task>
+    <task id="LOCAL-00025" summary="renamed js and css file for the forms page">
+      <created>1671540084706</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671540084706</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +287,8 @@
     <MESSAGE value=".Bilde" />
     <MESSAGE value="Added code and fixed structure" />
     <MESSAGE value="Added code comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code comments" />
+    <MESSAGE value="Moved FORM button" />
+    <MESSAGE value="renamed js and css file for the forms page" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed js and css file for the forms page" />
   </component>
 </project>
