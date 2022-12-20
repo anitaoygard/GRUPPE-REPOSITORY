@@ -31,19 +31,19 @@ body {
         color: white;
         }
 
+ /*Endrer størrelse, margin og bakgrunnsfarge på tekst inputfeltet.*/       
 .navnefelt[type=text] {
     width: 300px;
     margin-left: 400px;
     background: rgba(200, 200, 200, 1);
 }
-
+/*Endrer størrelse på container som inneholder alle sliders. Endrer også margin*/
 .container{
     height: 500px;
     width: 500px;
-    position: absolute;
     margin-left: 300px;
 }
-
+/*Endrer utseende på sliders. Setter width: 100%; av container slik at labels ikke skal kunne påvirke slider posisjon*/
 .slider{
     --sliderSize: 15px;
     -webkit-appearance: none;
@@ -55,24 +55,22 @@ body {
     outline: none;
     
 }
-
+/*Endrer utseende på slider-thumb, altså sirkelen som indikerer input verdien*/
 .slider::-webkit-slider-thumb {
     width: var(--sliderSize);
     height: var(--sliderSize);
     border-radius: 50%;
 }
-
+/*Flytter på alle labels som skal være til venstre for sliders med margin-left og transform.*/
 .labelleft{
     margin-left: -250px;
     float: left;
-    display: block;
     transform: translate(20px, -20px);
 }
-
+/*Flytter på alle labels som skal være til høyre for sliders med margin-left og transform.*/
 .labelright{
     margin-right: -250px;
     float: right;
-    display: block;
     transform: translate(20px, -20px);
 }
 
@@ -87,19 +85,20 @@ body {
     text-align: center;
     font-size: 16px;
 }
-
+/*Flytter på farge input box*/
 .farge {
     margin-left: 525px;
 }
-
+/*Flytter på farge label "Farge:"*/
 .fargelabel {
     margin-left: -180px;
 }
+/*Flytter på farge label "Navn:"*/
 .labelnavn {
     margin-left: 400px;
 }
 
-
+/*Setter inn bakgrunnsbilde*/
 .header {
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("./image/uia.jpg");
     background-size: cover;
