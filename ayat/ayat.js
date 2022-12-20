@@ -28,5 +28,5 @@ fetch(url6)
         document.querySelector("#slider10url6input").style.setProperty('--sliderColor2', data.Farge);
         document.querySelector("#slider11url6input").style.setProperty('--sliderColor2', data.Farge);
 
-        document.querySelector("#navnurl2").style.setProperty('--labelColor2', data.Farge);
+        document.querySelector("#navnurl6").style.setProperty('--labelColor2', data.Farge);
     })
