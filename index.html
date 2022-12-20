@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<!--Navigasjonsbar, refererer til alle de ulike sidene. class="active" viser hvilken side du er på-->
 <div class="topnav">
     <a class="active" href="index.html">Forms</a>
     <a href="./rapport/rapport.html">Rapport</a>
@@ -21,29 +21,22 @@
 
 <section class="header">
 
-<!--
-<ul id="navigation" class="navigation">
-    <li><a href="rapport.html">WEB-RAPPORT</a></li>
-    <li><a href="index.html">WEB-FORM</a></li>
-    <li><a href="flagg.html">Flagg</a></li>
-</ul>
--->
-
+<!--Overskrift-->
 <h1 style="font-size: 50px; margin-left: 400px; margin-right">How We Roll</h1>
 
-
+<!--Inputfelt til navn med tilhørende label "Navn:"-->
 <form>
     <label class="labelnavn" id="labelnavn" for="navnefelt">Navn:</label><br>
     <input type="text" id="navnefelt"  class="navnefelt"><br>
 </form>
-
+<!--Inputfelt til farge med tilhørende label "Farge:"-->
 <div>
     <input type="color" class="farge" id="farge">
     <label class="fargelabel" id="fargelabel" for="farge">Farge:</label>
 </div>
-
+<!--Lager en div container rundt alle sliders til bruk i CSS-->
 <div class="container" align="center">
-
+<!--Lager en slider med class="slider" og id="sliderX". Tilhørende labels følger med. Label med class="labelleft" kommer til venstre for slider, mens class"labelright" kommer til høyre for slider-->
     <div class="slider-wrapper">
         <input type="range" min="0" max="1000" value="" class="slider" id="slider1" />
 
@@ -51,7 +44,7 @@
         <label class="labelright" for="slider1">Night owl</label>
     </div>
 
-
+<!--Gjentar det samme som ovenfor for slider2-11-->
     <div class="slider-wrapper">
         <input type="range" min="0" max="1000" value="" class="slider" id="slider2" />
 
@@ -121,11 +114,11 @@
         <label class="labelleft" for="slider11">Always on time</label>
         <label class="labelright" for="slider11">Never on time</label>
     </div>
-
+<!--Lager en knapp som kjører funksjonen exportJson() når den trykkes på-->
 </div>
     <button class="btn" onclick="exportJson()">Export</button>
 </section>
-
+<!--Linker til javascript filen som skal brukes i HTML dokumentet-->
 <script src="main.js"></script>
 </body>
 </html>

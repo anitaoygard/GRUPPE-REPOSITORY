@@ -1,3 +1,5 @@
+/*body, topnav, topnav a, topnav a:hover,
+topnav a.active er funnet på w3school*/ 
 body {
     margin: 0px;
     font-family: Lato, Helvetica, sans-serif;
@@ -31,7 +33,8 @@ body {
         background-color: red;
         color: white;
         }
-
+/*Endrer width på sliders og margin. Setter display: grid; slik at alle elementene i container kan stables oppå hverandre*/
+/*Setter pointer-events: none; slik at det ikke er mulig å endre verdien på sliderene etter de har blitt satt av JavaScript funksjonen*/ 
 .container{ 
     width: 1000px;
     margin-left: 450px;
@@ -39,13 +42,15 @@ body {
     pointer-events: none;
    
 }
-
+/*Endrer utseende på sliders, og setter width: 100%; slik at labels på sidene ikke skal kunne påvirke posisjonen til sliderne*/ 
 .slider1, .slider2, .slider3, .slider4, .slider5, .slider6{
     width: 100%;
     height: 15px;
     border-radius: 5px;
     -webkit-appearance: none;
 }
+/*Setter bakgrunnsfarge, og lager variablene --sliderColorX og --sliderOpacityX som skal brukes i .slider1-6::-webkit-slider-thumb*/ 
+/*Denne bakgrunnsfargene har verdi "a" i rbga 0.7, fordi den ligger på bunnen. De andre vil ha "a" verdi lik 0, slik at all skal synes*/
 .slider1 {
     --sliderSize: 15px;
     --sliderColor1: #111111;
@@ -53,31 +58,35 @@ body {
     background: rgba(255, 255, 255, 0.7);
 
 }
-
+/*Setter "a" verdi i rgba lik 0, og definerer variable til bruk senere.*/ 
 .slider2 {
     --sliderSize: 15px;
     --sliderColor2: #111111;
     --sliderOpacity2: 1;
     background: rgba(200, 200, 200, 0);
 }
+/*Setter "a" verdi i rgba lik 0, og definerer variable til bruk senere.*/ 
 .slider3 {
     --sliderSize: 15px;
     --sliderColor3: #111111;
     --sliderOpacity3: 1;
     background: rgba(200, 200, 200, 0);
 }
+/*Setter "a" verdi i rgba lik 0, og definerer variable til bruk senere.*/ 
 .slider4 {
     --sliderSize: 15px;
     --sliderColor4: #111111;
     --sliderOpacity4: 1;
     background: rgba(200, 200, 200, 0);
 }
+/*Setter "a" verdi i rgba lik 0, og definerer variable til bruk senere.*/ 
 .slider5 {
     --sliderSize: 15px;
     --sliderColor5: #111111; 
     --sliderOpacity5: 1;
     background: rgba(200, 200, 200, 0);  
 }
+/*Setter "a" verdi i rgba lik 0, og definerer variable til bruk senere.*/ 
 .slider6 {
     --sliderSize: 15px;
     --sliderColor6: #111111;
@@ -86,7 +95,7 @@ body {
 }
 
 
-
+/*Endrer utseende på slider-thumb, og setter dens farge lik --sliderColorX, og opacity lik --sliderOpactyX. Disse vil bli endret av JavaScript funksjonene*/ 
 .slider1::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -96,7 +105,7 @@ body {
     background: var(--sliderColor1);
     opacity: var(--sliderOpacity1)
 }
-
+/*Endrer utseende på slider-thumb, og setter dens farge lik --sliderColorX, og opacity lik --sliderOpactyX. Disse vil bli endret av JavaScript funksjonene*/ 
 .slider2::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -106,7 +115,7 @@ body {
     background: var(--sliderColor2);
     opacity: var(--sliderOpacity2);
 }
-
+/*Endrer utseende på slider-thumb, og setter dens farge lik --sliderColorX, og opacity lik --sliderOpactyX. Disse vil bli endret av JavaScript funksjonene*/ 
 .slider3::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -116,7 +125,7 @@ body {
     background: var(--sliderColor3);
     opacity: var(--sliderOpacity3)
 }
-
+/*Endrer utseende på slider-thumb, og setter dens farge lik --sliderColorX, og opacity lik --sliderOpactyX. Disse vil bli endret av JavaScript funksjonene*/ 
 .slider4::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -126,7 +135,7 @@ body {
     background: var(--sliderColor4);
     opacity: var(--sliderOpacity4)
 }
-
+/*Endrer utseende på slider-thumb, og setter dens farge lik --sliderColorX, og opacity lik --sliderOpactyX. Disse vil bli endret av JavaScript funksjonene*/ 
 .slider5::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -136,7 +145,7 @@ body {
     background: var(--sliderColor5);
     opacity: var(--sliderOpacity5)
 }
-
+/*Endrer utseende på slider-thumb, og setter dens farge lik --sliderColorX, og opacity lik --sliderOpactyX. Disse vil bli endret av JavaScript funksjonene*/ 
 .slider6::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -146,62 +155,62 @@ body {
     background: var(--sliderColor6);
     opacity: var(--sliderOpacity6)
 }
-
+/*Bruker id="urlX" for å stable slider modulene til hver urlX oppå hverandre ved å bruke grid-column: 1; og grid-row: 1;*/ 
+/*Metode funnet på https://www.stefanjudis.com/today-i-learned/css-grid-can-be-used-to-stack-elements/ */
 .url1, .url2, .url3, .url4, .url5, .url6{
     grid-column: 1;
     grid-row: 1;
 }
 
-
+/*Flytter på alle labels som skal være til venstre for sliders med margin-left og transform.*/
 .labelsliderleft {
     float: left;
     margin-left: -180px;
     transform: translate(-20px, -20px);
 
 }
-
+/*Flytter på alle labels som skal være til høyre for sliders med margin-left og transform.*/
 .labelsliderright {
     float: right;
     margin-right: -230px;
     transform: translate(20px, -20px);
 }
-
+/*Endrer utseende på class="navn"*/ 
 .navn {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
+/*Endrer farge på bakgrunnsfargen til id="navnurlX" ved variabelen --labelColorX. Verdien til denne variablen blir satt av JavaScript funksjonen*/ 
 .navnurl1 {
     --labelColor1;
     background: var(--labelColor1);  
 }
-
+/*Endrer farge på bakgrunnsfargen til id="navnurlX" ved variabelen --labelColorX. Verdien til denne variablen blir satt av JavaScript funksjonen*/ 
 .navnurl2 {
     --labelColor2;
     background: var(--labelColor2);
 }
-
+/*Endrer farge på bakgrunnsfargen til id="navnurlX" ved variabelen --labelColorX. Verdien til denne variablen blir satt av JavaScript funksjonen*/ 
 .navnurl3 {
     --labelColor3;
     background: var(--labelColor3);
 }
-
+/*Endrer farge på bakgrunnsfargen til id="navnurlX" ved variabelen --labelColorX. Verdien til denne variablen blir satt av JavaScript funksjonen*/ 
 .navnurl4 {
     --labelColor4;
     background: var(--labelColor4); 
 }
-
+/*Endrer farge på bakgrunnsfargen til id="navnurlX" ved variabelen --labelColorX. Verdien til denne variablen blir satt av JavaScript funksjonen*/ 
 .navnurl5 {
     --labelColor5;
     background: var(--labelColor5);
 }
-
+/*Endrer farge på bakgrunnsfargen til id="navnurlX" ved variabelen --labelColorX. Verdien til denne variablen blir satt av JavaScript funksjonen*/ 
 .navnurl6 {
     --labelColor6;
     background: var(--labelColor6);
 }
 
 
-.myCheckbox1, .myCheckbox2, .myCheckbox3, .myCheckbox4, .myCheckbox5, .myCheckbox6 {
 
-}
